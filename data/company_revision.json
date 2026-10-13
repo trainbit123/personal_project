@@ -1,0 +1,349 @@
+{
+  "Amazon": [
+    {
+      "sheetId": 1,
+      "title": "Two Sum",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 53,
+      "title": "Trapping Rain Water",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 143,
+      "title": "Merge Intervals",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 109,
+      "title": "LRU Cache",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 204,
+      "title": "Number of Islands",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 206,
+      "title": "Rotting Oranges",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 113,
+      "title": "Merge k Sorted Lists",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 261,
+      "title": "Word Break",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 21,
+      "title": "Group Anagrams",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 132,
+      "title": "Top K Frequent Elements",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 20,
+      "title": "Longest Palindromic Substring",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 7,
+      "title": "Product of Array Except Self",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 108,
+      "title": "Copy List with Random Pointer",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 175,
+      "title": "Binary Tree Level Order Traversal",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 135,
+      "title": "Task Scheduler",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 217,
+      "title": "Course Schedule",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 34,
+      "title": "Subarray Sum Equals K",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 179,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 272,
+      "title": "Coin Change",
+      "level": "Medium"
+    }
+  ],
+  "Google": [
+    {
+      "sheetId": 55,
+      "title": "Longest Substring Without Repeating Characters",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 83,
+      "title": "Median of Two Sorted Arrays",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 189,
+      "title": "Serialize and Deserialize Binary Tree",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 221,
+      "title": "Alien Dictionary",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 202,
+      "title": "Word Search II",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 62,
+      "title": "Minimum Window Substring",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 63,
+      "title": "Sliding Window Maximum",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 298,
+      "title": "Text Justification",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 146,
+      "title": "Meeting Rooms II",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 155,
+      "title": "Valid Parenthesis String",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 183,
+      "title": "Count Univalue Subtrees",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 224,
+      "title": "Cheapest Flights Within K Stops",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 279,
+      "title": "Burst Balloons",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 263,
+      "title": "Regular Expression Matching",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 53,
+      "title": "Trapping Rain Water",
+      "level": "Hard"
+    }
+  ],
+  "Microsoft": [
+    {
+      "sheetId": 100,
+      "title": "Reverse Linked List",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 108,
+      "title": "Copy List with Random Pointer",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 107,
+      "title": "Add Two Numbers",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 194,
+      "title": "Validate Binary Search Tree",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 179,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 8,
+      "title": "Maximum Subarray",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 87,
+      "title": "Count Inversions",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 104,
+      "title": "Intersection of Two Linked Lists",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 22,
+      "title": "Reverse Words in a String",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 207,
+      "title": "Clone Graph",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 116,
+      "title": "Min Stack",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 195,
+      "title": "Kth Smallest Element in a BST",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 113,
+      "title": "Merge k Sorted Lists",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 111,
+      "title": "Detect and Remove Loop in Linked List",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 61,
+      "title": "Smallest Window Containing All Distinct Characters",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 261,
+      "title": "Word Break",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 10,
+      "title": "Next Permutation",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 84,
+      "title": "Kth Element of Two Sorted Arrays",
+      "level": "Hard"
+    }
+  ],
+  "Flipkart": [
+    {
+      "sheetId": 73,
+      "title": "Search in Rotated Sorted Array",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 87,
+      "title": "Count Inversions",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 84,
+      "title": "Kth Element of Two Sorted Arrays",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 109,
+      "title": "LRU Cache",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 104,
+      "title": "Intersection of Two Linked Lists",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 107,
+      "title": "Add Two Numbers",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 204,
+      "title": "Number of Islands",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 1,
+      "title": "Two Sum",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 14,
+      "title": "Find the Missing and Repeating Number",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 5,
+      "title": "Subarray with Given Sum",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 113,
+      "title": "Merge k Sorted Lists",
+      "level": "Hard"
+    },
+    {
+      "sheetId": 2,
+      "title": "Best Time to Buy and Sell Stock",
+      "level": "Easy"
+    },
+    {
+      "sheetId": 194,
+      "title": "Validate Binary Search Tree",
+      "level": "Medium"
+    },
+    {
+      "sheetId": 253,
+      "title": "Longest Increasing Subsequence",
+      "level": "Medium"
+    }
+  ],
+  "checklist": [
+    "Every struggled problem re-solved from memory in under 25 minutes.",
+    "All four company revision sets done timed (Amazon, Google, Microsoft, Flipkart).",
+    "For each pattern, you can state the brute force, the optimised approach, and time and space complexity.",
+    "At least 3 full mock interviews done, explaining aloud (45 min, 2 problems).",
+    "System design basics plus OS, DBMS, OOP and networking revised.",
+    "Amazon leadership principle stories & behavioural STAR examples ready.",
+    "Resume projects ready to explain in depth: design choices, trade-offs, architecture, and improvements."
+  ]
+}

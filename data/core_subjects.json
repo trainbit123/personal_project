@@ -1,0 +1,308 @@
+{
+  "Operating Systems": {
+    "description": "Fundamental concepts of OS, process scheduling, memory hierarchies, synchronization primitives, and concurrency.",
+    "modules": [
+      {
+        "name": "Processes and Threads",
+        "topics": [
+          "Process Lifecycle and States",
+          "PCB (Process Control Block)",
+          "Context Switching overhead",
+          "User-level vs Kernel-level Threads",
+          "Multithreading Models"
+        ],
+        "keyTakeaway": "Processes have independent address spaces; threads share code, data, and open files of the parent process."
+      },
+      {
+        "name": "CPU Scheduling",
+        "topics": [
+          "Preemptive vs Non-Preemptive",
+          "FCFS, SJF, SRTF",
+          "Round Robin & Quantum Tuning",
+          "Priority Scheduling & Aging",
+          "Multi-Level Feedback Queue (MLFQ)"
+        ],
+        "keyTakeaway": "Turnaround time = Completion - Arrival. Waiting time = Turnaround - Burst time. Small quantum in RR causes excessive context switches."
+      },
+      {
+        "name": "Process Synchronization & Deadlocks",
+        "topics": [
+          "Critical Section Problem & Peterson's Algorithm",
+          "Mutex vs Semaphore (Counting & Binary)",
+          "Spinlocks & Readers-Writer Problem",
+          "4 Coffman Conditions for Deadlock",
+          "Banker's Algorithm & Deadlock Recovery"
+        ],
+        "keyTakeaway": "Deadlock conditions: Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait. Breaking circular wait (resource ordering) is most common."
+      },
+      {
+        "name": "Memory Management & Virtual Memory",
+        "topics": [
+          "Logical vs Physical Address Space (MMU)",
+          "Paging, Page Tables, Hierarchical Paging",
+          "TLB (Translation Lookaside Buffer) & Hit Ratio",
+          "Page Faults & Demand Paging",
+          "Page Replacement: FIFO, LRU, Optimal, Clock algorithm",
+          "Thrashing & Working Set Model"
+        ],
+        "keyTakeaway": "Virtual memory allows programs larger than RAM. Thrashing occurs when page-fault handling consumes more time than actual execution."
+      },
+      {
+        "name": "File Systems & I/O",
+        "topics": [
+          "Inodes and File Allocation (Contiguous, Linked, Indexed)",
+          "Hard Links vs Soft Links",
+          "Disk Scheduling: FCFS, SSTF, SCAN, C-SCAN",
+          "RAID Levels (RAID 0, 1, 5, 10)"
+        ],
+        "keyTakeaway": "Hard link points directly to the inode; soft link points to the filename path. Deleting the target file breaks soft links."
+      }
+    ],
+    "interviewQuestions": [
+      {
+        "question": "What is the key difference between a Process and a Thread?",
+        "answer": "A process is an executing program instance with its own virtual address space, memory (text, data, heap, stack), and file descriptors. A thread is a lightweight unit of execution within a process that shares the same address space, heap, and open files, but has its own stack and registers. Context switching between threads is much faster than processes because no page table invalidation (TLB flush) is required."
+      },
+      {
+        "question": "Explain the 4 necessary conditions for Deadlock and how to prevent them.",
+        "answer": "1. Mutual Exclusion (at least one non-shareable resource). 2. Hold and Wait (process holds resource while requesting others). 3. No Preemption (resources cannot be forcibly taken). 4. Circular Wait (a closed chain of processes waiting on each other). To prevent deadlock, eliminate one condition, most commonly Circular Wait by imposing a global strict ordering on resource acquisition."
+      },
+      {
+        "question": "What is Thrashing and how does the OS handle it?",
+        "answer": "Thrashing occurs when the system spends more time servicing page faults and swapping pages in/out of secondary storage than executing user processes. It happens when active processes demand more pages than available physical frames. The OS mitigates it by tracking the Working Set of each process and suspending/swapping out lower-priority processes to free memory for remaining active processes."
+      },
+      {
+        "question": "What is the difference between a Mutex and a Semaphore?",
+        "answer": "A Mutex is a locking mechanism with ownership semantics (only the thread that locked it can unlock it, strictly 0 or 1). A Semaphore is a signaling mechanism (counter); any thread can signal/post (V) to release or wait (P) to decrement. A counting semaphore allows up to N concurrent threads to access a shared pool of resources."
+      }
+    ]
+  },
+  "DBMS": {
+    "description": "Relational data modeling, SQL optimization, transactions, ACID guarantees, concurrency protocols, and internal indexing mechanisms.",
+    "modules": [
+      {
+        "name": "Relational Model & Normalization",
+        "topics": [
+          "Functional Dependencies",
+          "1NF (Atomic attributes)",
+          "2NF (No partial dependency on composite key)",
+          "3NF (No transitive dependencies)",
+          "BCNF (Boyce-Codd Normal Form)",
+          "De-normalization trade-offs"
+        ],
+        "keyTakeaway": "Normalization minimizes data redundancy and update anomalies; denormalization is purposefully used in read-heavy analytics/warehouses to eliminate expensive joins."
+      },
+      {
+        "name": "Transactions & ACID Properties",
+        "topics": [
+          "Atomicity (All-or-Nothing, WAL logs)",
+          "Consistency (Integrity constraints)",
+          "Isolation (Concurrency separation)",
+          "Durability (Committed data survives crashes, fsync)",
+          "Write-Ahead Logging (WAL) & ARIES Recovery"
+        ],
+        "keyTakeaway": "ACID guarantees transactional integrity. WAL writes changes to sequential disk log before updating dirty buffer pool pages."
+      },
+      {
+        "name": "Concurrency Control & Isolation Levels",
+        "topics": [
+          "Dirty Read, Non-repeatable Read, Phantom Read",
+          "Read Uncommitted, Read Committed, Repeatable Read, Serializable",
+          "Two-Phase Locking (2PL, Strict 2PL)",
+          "MVCC (Multi-Version Concurrency Control)",
+          "Optimistic vs Pessimistic Locking"
+        ],
+        "keyTakeaway": "Postgres and MySQL InnoDB use MVCC for high-concurrency non-blocking reads where readers never block writers and writers never block readers."
+      },
+      {
+        "name": "Indexing & Storage Engines",
+        "topics": [
+          "B-Tree vs B+ Tree internals",
+          "Clustered Index vs Secondary (Non-clustered) Index",
+          "Hash Indexes, LSM Trees (Log-Structured Merge)",
+          "Covering Index & Composite Index Leftmost Prefix Rule",
+          "EXPLAIN ANALYZE & Query Optimization"
+        ],
+        "keyTakeaway": "B+ Trees store all actual record pointers in leaf nodes linked sequentially, making range queries O(log N + K). LSM Trees optimize write throughput."
+      }
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Why do relational databases use B+ Trees instead of Binary Search Trees or Hash tables for indexing?",
+        "answer": "1. High Fan-out: B+ Trees have a very wide branching factor (e.g. 100-1000 keys per node), keeping height low (3-4 levels) and minimizing expensive disk I/O seeks. 2. Range Queries: In B+ Trees, all leaf nodes are connected via a doubly linked list, enabling fast sequential range scans, which Hash tables cannot do (O(1) exact match only). 3. Memory locality: B+ Tree internal nodes store only keys and child pointers, packing more keys per disk page than standard BSTs."
+      },
+      {
+        "question": "Explain the 4 ANSI SQL Transaction Isolation Levels and their anomalies.",
+        "answer": "1. Read Uncommitted: Permits Dirty Reads (reading uncommitted transactions). 2. Read Committed: Prevents Dirty Reads, allows Non-repeatable Reads (value changes between two reads in the same transaction). 3. Repeatable Read: Prevents Non-repeatable Reads using MVCC snapshot, may allow Phantom Reads (new rows inserted matching search condition). 4. Serializable: Complete isolation simulating serial execution, prevents all anomalies via 2PL or SSI."
+      },
+      {
+        "question": "What is the Leftmost Prefix Rule in Composite Indexes?",
+        "answer": "When creating an index on columns (A, B, C), the database can utilize the index for queries filtering on (A), (A, B), or (A, B, C). It CANNOT utilize the index if the query filters only on (B) or (C) without (A), because the B+ tree is sorted primarily by column A, then column B, then C."
+      }
+    ]
+  },
+  "Computer Networks": {
+    "description": "The Internet protocol stack, transport layer protocols, congestion algorithms, modern HTTP evolutions, and secure communications.",
+    "modules": [
+      {
+        "name": "Protocol Layers & Physical/Data Link",
+        "topics": [
+          "OSI 7 Layers vs TCP/IP 4 Layers",
+          "Encapsulation & Decapsulation",
+          "MAC Address, ARP Protocol, Ethernet Framing",
+          "Switches vs Routers vs Gateways"
+        ],
+        "keyTakeaway": "Switches operate at Layer 2 (MAC addresses); Routers operate at Layer 3 (IP routing tables)."
+      },
+      {
+        "name": "Network Layer & Routing",
+        "topics": [
+          "IPv4 vs IPv6, CIDR Subnetting",
+          "NAT (Network Address Translation) & Private IP ranges",
+          "ICMP & Traceroute/Ping",
+          "BGP, OSPF, Dijkstra Link-State routing"
+        ],
+        "keyTakeaway": "Subnet masks define network vs host portions (e.g., /24 provides 256 addresses, 254 usable hosts)."
+      },
+      {
+        "name": "Transport Layer (TCP & UDP)",
+        "topics": [
+          "TCP 3-Way Handshake (SYN, SYN-ACK, ACK)",
+          "TCP 4-Way Termination (FIN, ACK, FIN, ACK & TIME_WAIT)",
+          "Flow Control (Sliding Window)",
+          "Congestion Control: Slow Start, Congestion Avoidance, Fast Retransmit, Fast Recovery",
+          "UDP characteristics & Use Cases"
+        ],
+        "keyTakeaway": "TIME_WAIT (usually 2MSL) ensures the final ACK reaches the peer and prevents stale delayed packets from colliding with a new connection on the same socket."
+      },
+      {
+        "name": "Application Layer & Modern Protocols",
+        "topics": [
+          "DNS Resolution Hierarchy & Anycast",
+          "HTTP/1.1 (Keep-Alive, Pipelining, Head-of-Line Blocking)",
+          "HTTP/2 (Multiplexing, Binary Framing, HPACK, Stream Priorities)",
+          "HTTP/3 & QUIC (UDP-based, 0-RTT handshake, no TCP HoL)",
+          "TLS/SSL 1.3 Handshake & Diffie-Hellman Key Exchange",
+          "WebSockets vs Server-Sent Events (SSE) vs Polling"
+        ],
+        "keyTakeaway": "HTTP/2 solved application-layer head-of-line blocking via multiplexing, but retained transport-level blocking upon packet loss. HTTP/3 solves this by migrating to QUIC over UDP."
+      }
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Walk through what happens when you type https://www.google.com in your browser and press Enter.",
+        "answer": "1. URL Parsing & HSTS check. 2. DNS Lookup: Browser cache -> OS cache -> Router/ISP resolver -> Root server -> .com TLD server -> Authoritative Name Server. 3. TCP Handshake: Client sends SYN, Server sends SYN-ACK, Client sends ACK. 4. TLS 1.3 Handshake: ClientHello (supported ciphers, key share), ServerHello + Certificate + Finished, Client computes symmetric session key and finishes (1 RTT, or 0-RTT with session ticket). 5. HTTP GET Request sent over encrypted tunnel. 6. Server processes request through reverse proxy (e.g. NGINX) and application server, returning HTML payload. 7. Browser parses HTML, builds DOM and CSSOM, fetches linked assets (JS/CSS/images), and renders page."
+      },
+      {
+        "question": "Why does TCP use a 3-way handshake instead of a 2-way handshake?",
+        "answer": "A 3-way handshake is necessary because both client and server must independently synchronize their Initial Sequence Numbers (ISNs) and confirm bidirectional communication. With a 2-way handshake, if an old delayed SYN packet arrives at the server, the server would open a connection and allocate resources immediately without knowing the client actually aborted or died."
+      },
+      {
+        "question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling.",
+        "answer": "WebSockets: Full-duplex bidirectional communication over a single TCP connection, ideal for low-latency games and interactive chat. SSE: Unidirectional server-to-client streaming over HTTP/1.1 or HTTP/2, built-in reconnection, ideal for live score feeds and LLM token streaming. Long Polling: Client opens HTTP request that hangs until server has data, client immediately repolls upon receiving data; high header overhead and latency."
+      }
+    ]
+  },
+  "OOP & Design Patterns": {
+    "description": "Object-oriented paradigm, clean code principles, SOLID design guidelines, and essential structural, creational, and behavioral patterns.",
+    "modules": [
+      {
+        "name": "Core OOP Pillars",
+        "topics": [
+          "Encapsulation (Access modifiers, data hiding)",
+          "Abstraction (Interfaces vs Abstract Classes)",
+          "Inheritance ('is-a' relationships and pitfalls)",
+          "Polymorphism (Compile-time Method Overloading vs Runtime Method Overriding)"
+        ],
+        "keyTakeaway": "Prefer composition over inheritance to avoid tight coupling and fragile base class problems."
+      },
+      {
+        "name": "SOLID Principles",
+        "topics": [
+          "S: Single Responsibility Principle (A class should have only one reason to change)",
+          "O: Open/Closed Principle (Open for extension, closed for modification)",
+          "L: Liskov Substitution Principle (Subtypes must be substitutable for base types)",
+          "I: Interface Segregation Principle (Clients should not depend on interfaces they do not use)",
+          "D: Dependency Inversion Principle (Depend on abstractions, not concretions; Dependency Injection)"
+        ],
+        "keyTakeaway": "SOLID principles guide modular, extensible, and easily unit-testable software design."
+      },
+      {
+        "name": "Key Design Patterns",
+        "topics": [
+          "Creational: Singleton (Thread-safe Double-Checked Locking), Factory Method, Builder",
+          "Structural: Adapter, Decorator (Wrapping behavior), Proxy (Virtual, Protection)",
+          "Behavioral: Observer (Pub/Sub event bus), Strategy (Interchangeable algorithms), Command"
+        ],
+        "keyTakeaway": "Patterns provide battle-tested vocabularies and architectural structures for recurrent software engineering challenges."
+      }
+    ],
+    "interviewQuestions": [
+      {
+        "question": "Explain the Strategy Pattern with a real-world scenario.",
+        "answer": "The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime without modifying client code (satisfies Open/Closed Principle). Example: An e-commerce checkout system where PaymentProcessor accepts a PaymentStrategy interface implemented by CreditCardPayment, PayPalPayment, and CryptoPayment. The checkout logic simply invokes paymentStrategy.pay(amount)."
+      },
+      {
+        "question": "How do you implement a thread-safe Singleton in Java or C++?",
+        "answer": "Using the Double-Checked Locking pattern: declare the static instance variable as volatile (to prevent instruction reordering where memory is allocated before constructor finishes). In getInstance(), check if instance is null; if yes, enter a synchronized/mutex block, check if instance is still null, and instantiate. In modern C++11, a function-local static variable (`static Singleton instance; return instance;`) is guaranteed to be initialized thread-safely by the compiler."
+      }
+    ]
+  },
+  "System Design": {
+    "description": "High-Level Design (scalability, availability, distributed systems primitives) and Low-Level Object Oriented Design.",
+    "modules": [
+      {
+        "name": "HLD Foundations & Scalability",
+        "topics": [
+          "Vertical vs Horizontal Scaling",
+          "Load Balancers (L4 vs L7, Round Robin, Least Connections, Consistent Hashing)",
+          "Caching Strategies (Cache Aside, Write Through, Write Behind, Eviction: LRU/LFU)",
+          "CDN (Edge caching, dynamic acceleration)",
+          "CAP Theorem & PACELC Theorem"
+        ],
+        "keyTakeaway": "Consistent hashing minimizes key remapping when adding or removing cache or database nodes to O(K/N)."
+      },
+      {
+        "name": "Distributed Storage & Messaging",
+        "topics": [
+          "Database Sharding (Key-based, Range-based, Directory-based)",
+          "Replication (Single-Leader, Multi-Leader, Leaderless Raft/Paxos)",
+          "Message Queues: Kafka (Partitioning, consumer groups, offset tracking) vs RabbitMQ",
+          "Idempotency & Exactly-Once semantics using Idempotency Keys"
+        ],
+        "keyTakeaway": "Kafka partitions scale consumer reads horizontally; messages within a single partition are strictly ordered."
+      },
+      {
+        "name": "Classic High-Level Systems",
+        "topics": [
+          "URL Shortener (TinyURL) - Base62 encoding, KGS (Key Generation Service), Redis cache",
+          "Rate Limiter - Token Bucket, Leaky Bucket, Sliding Window Counter with Redis Lua script",
+          "Notification System - Multi-channel workers (Push, Email, SMS), queue isolation, deduplication",
+          "Real-time Chat (WhatsApp/Slack) - WebSockets, Session Gateway, Message Store (Cassandra), Presence Service",
+          "YouTube / Netflix Video Streaming - Transcoding workers, Chunked DASH/HLS, CDN distribution"
+        ],
+        "keyTakeaway": "Always start HLD with clarifying Functional & Non-functional requirements, Back-of-the-envelope estimations, High-level diagram, followed by Deep-Dives and Bottleneck analysis."
+      },
+      {
+        "name": "Classic Low-Level Design (LLD)",
+        "topics": [
+          "Design a Parking Lot (Vehicle types, Spot allocation strategy, Payment calculation)",
+          "Design Tic-Tac-Toe / Chess (Board representation, Move validation, Win detection, Observer)",
+          "Design an In-Memory Key-Value Store with TTL & LRU eviction (Doubly-linked list + HashMap)",
+          "Design an Elevator System (Dispatch algorithm, Request state machine, Look/SCAN schedule)"
+        ],
+        "keyTakeaway": "For LLD, write crisp Class Diagrams, define interfaces, adhere to SOLID, and implement thread-safety where applicable."
+      }
+    ],
+    "interviewQuestions": [
+      {
+        "question": "How do you design a Distributed Rate Limiter with sub-millisecond latency?",
+        "answer": "Use Redis with the Sliding Window Counter or Token Bucket algorithm. To prevent race conditions between read and write operations, execute the rate-limiting logic inside an atomic Redis Lua script. Track client request timestamps in a Redis Sorted Set (ZSET) keyed by IP or user ID: prune entries older than (now - window), count remaining elements with ZCARD, and if count < limit, add current timestamp with ZADD and allow request; otherwise reject with HTTP 429 Too Many Requests."
+      },
+      {
+        "question": "Explain the CAP Theorem and how PACELC expands it.",
+        "answer": "CAP theorem states a distributed system can guarantee at most two of: Consistency (all nodes see latest data), Availability (every request receives non-error response), and Partition Tolerance (system operates despite network drops). Since network partitions (P) are inevitable in real networks, systems choose between CP (e.g. HBase, MongoDB) and AP (e.g. Cassandra, DynamoDB). PACELC extends this: If there is a Partition (P), how does it trade off Availability (A) and Consistency (C); Else (E), how does it trade off Latency (L) and Consistency (C)?"
+      }
+    ]
+  }
+}

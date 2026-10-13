@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prep300 • 3-Month Career & DSA Preparation Hub</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="#" class="brand" onclick="switchTab('dashboard'); return false;">
+        <div class="brand-icon">300</div>
+        <div class="brand-text">
+          <h1>Prep300</h1>
+          <span class="brand-badge">3-Month SDE Blueprint</span>
+        </div>
+      </a>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" aria-label="Main Navigation">
+        <button class="nav-tab-btn active" data-tab="dashboard">
+          <span>📊</span> Dashboard
+        </button>
+        <button class="nav-tab-btn" data-tab="problems">
+          <span>🧩</span> 300 Problems
+        </button>
+        <button class="nav-tab-btn" data-tab="weeks">
+          <span>📅</span> 12-Week Plan
+        </button>
+        <button class="nav-tab-btn" data-tab="company">
+          <span>🏢</span> Company Revision
+        </button>
+        <button class="nav-tab-btn" data-tab="core">
+          <span>💻</span> Core CS Subjects
+        </button>
+        <button class="nav-tab-btn" data-tab="projects">
+          <span>🤖</span> AI Resume Projects
+        </button>
+        <button class="nav-tab-btn" data-tab="timer">
+          <span>⏱</span> Focus Timer
+        </button>
+      </nav>
+
+      <!-- Header Quick Actions -->
+      <div class="header-actions">
+        <div class="header-timer-badge" id="headerTimerBadge" title="Click to open Focus Timer">
+          <span>⏱</span>
+          <span id="headerTimerDisplay">25:00</span>
+        </div>
+        <button class="btn-icon" id="themeToggleBtn" title="Toggle Light/Dark Theme">☀️</button>
+        <button class="btn btn-sm" id="exportDataBtn" title="Export progress to JSON">💾 Backup</button>
+        <button class="btn btn-sm" id="importDataBtn" title="Import progress from JSON">📥 Restore</button>
+        <input type="file" id="importFileInput" accept=".json" style="display: none;">
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Areas -->
+  <main class="main-content">
+
+    <!-- 1. DASHBOARD TAB -->
+    <section id="dashboardPane" class="tab-pane active">
+      <!-- Daily Routine Banner -->
+      <div class="routine-banner">
+        <div class="routine-info">
+          <h2><span>🚀</span> Daily Routine (3 Hours Goal)</h2>
+          <p>
+            Solve 4 to 5 new problems a day, 6 days a week (30 a week). Use the 7th day to revise what you struggled with. 
+            Time-box 25 to 30 minutes per problem. On Hard problems, if stuck after 40 minutes, study the solution and mark it for the weekly redo!
+          </p>
+          <div class="routine-pills">
+            <span class="routine-tag">⏱ 25-30m per problem</span>
+            <span class="routine-tag">🔄 Day 7 Revision</span>
+            <span class="routine-tag">🗣 Speak approach aloud</span>
+            <span class="routine-tag">💼 Apply from Week 8</span>
+          </div>
+        </div>
+
+        <div class="streak-card">
+          <div class="streak-flame">🔥</div>
+          <div class="streak-details">
+            <div class="streak-num" id="dashStreak">1</div>
+            <div class="streak-label">Day Streak</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- High-Level Stats Cards -->
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-title">Overall DSA Solved</span>
+            <span class="stat-icon">📈</span>
+          </div>
+          <div class="stat-value" id="dashTotalSolved">0 / 300</div>
+          <div class="progress-container">
+            <div class="progress-fill" id="dashTotalBar" style="width: 0%;"></div>
+          </div>
+          <div class="stat-subtext" id="dashTotalPct">0% Complete</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-title">Easy Problems</span>
+            <span class="stat-icon" style="color:var(--easy-color);">🟢</span>
+          </div>
+          <div class="stat-value" id="dashEasy">0 / 0</div>
+          <div class="progress-container">
+            <div class="progress-fill easy" id="dashEasyBar" style="width: 0%;"></div>
+          </div>
+          <div class="stat-subtext">Foundation patterns</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-title">Medium Problems</span>
+            <span class="stat-icon" style="color:var(--medium-color);">🟡</span>
+          </div>
+          <div class="stat-value" id="dashMedium">0 / 0</div>
+          <div class="progress-container">
+            <div class="progress-fill medium" id="dashMediumBar" style="width: 0%;"></div>
+          </div>
+          <div class="stat-subtext">Top interview questions</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <span class="stat-title">Hard Problems</span>
+            <span class="stat-icon" style="color:var(--hard-color);">🔴</span>
+          </div>
+          <div class="stat-value" id="dashHard">0 / 0</div>
+          <div class="progress-container">
+            <div class="progress-fill hard" id="dashHardBar" style="width: 0%;"></div>
+          </div>
+          <div class="stat-subtext">Advanced edge patterns</div>
+        </div>
+      </div>
+
+      <!-- Quick Action / Focus Cards -->
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem; margin-top: 1rem;">
+        
+        <!-- Active AI Resume Project Card -->
+        <div class="stat-card" style="border-left: 4px solid var(--accent-purple);">
+          <div class="stat-header">
+            <span class="stat-title" style="color:var(--accent-purple);">Selected AI Resume Project</span>
+            <span class="stat-icon">🤖</span>
+          </div>
+          <h3 id="dashActiveProjectTitle" style="font-size:1.1rem; font-weight:700; margin:0.35rem 0;">Autonomous Multi-Agent DevOps & SRE Incident Remediation Engine</h3>
+          <p id="dashActiveProjectMilestone" style="font-size:0.85rem; color:var(--text-secondary);">0 / 5 Milestones Completed</p>
+          <div style="margin-top:auto; padding-top:0.75rem;">
+            <button class="btn btn-sm btn-primary" onclick="switchTab('projects')">Open Project Blueprint & Milestones →</button>
+          </div>
+        </div>
+
+        <!-- Core CS Revision Quick Launcher -->
+        <div class="stat-card" style="border-left: 4px solid var(--accent-blue);">
+          <div class="stat-header">
+            <span class="stat-title" style="color:var(--accent-blue);">Core CSE Subjects Preparation</span>
+            <span class="stat-icon">💻</span>
+          </div>
+          <h3 style="font-size:1.1rem; font-weight:700; margin:0.35rem 0;">OS, DBMS, Networks, OOP, System Design</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Interactive roadmaps, syllabus checklists, and high-yield interview questions.</p>
+          <div style="margin-top:auto; padding-top:0.75rem;">
+            <button class="btn btn-sm" onclick="switchTab('core')">Review Core Subjects →</button>
+          </div>
+        </div>
+
+        <!-- Week 11-12 Revision Launcher -->
+        <div class="stat-card" style="border-left: 4px solid var(--accent-amber);">
+          <div class="stat-header">
+            <span class="stat-title" style="color:var(--accent-amber);">Target Company Revision Sets</span>
+            <span class="stat-icon">🏢</span>
+          </div>
+          <h3 style="font-size:1.1rem; font-weight:700; margin:0.35rem 0;">Amazon, Google, Microsoft, Flipkart</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">66 most frequently reported problems + final interview readiness checklist.</p>
+          <div style="margin-top:auto; padding-top:0.75rem;">
+            <button class="btn btn-sm" onclick="switchTab('company')">Practice Company Sets →</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. 300 DSA PROBLEMS TAB -->
+    <section id="problemsPane" class="tab-pane">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><span>🧩</span> 300 DSA Problem Sheet</h2>
+          <p class="section-desc">Organized into 38 major interview patterns across 10 structured weeks with direct solve links.</p>
+        </div>
+        <div id="problemsResultCount" style="font-size:0.85rem; font-weight:600; color:var(--accent-cyan);">
+          Showing 300 problems
+        </div>
+      </div>
+
+      <!-- Filter & Search Controls -->
+      <div class="filter-bar">
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="problemSearch" class="search-input" placeholder="Search by problem name, topic (e.g. Sliding Window), or company (e.g. Google)...">
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="weekFilter" class="filter-label">Week:</label>
+            <select id="weekFilter" class="filter-select">
+              <option value="all">All Weeks (1-10)</option>
+              <option value="1">Week 1 (#1 - #30)</option>
+              <option value="2">Week 2 (#31 - #60)</option>
+              <option value="3">Week 3 (#61 - #90)</option>
+              <option value="4">Week 4 (#91 - #120)</option>
+              <option value="5">Week 5 (#121 - #150)</option>
+              <option value="6">Week 6 (#151 - #180)</option>
+              <option value="7">Week 7 (#181 - #210)</option>
+              <option value="8">Week 8 (#211 - #240)</option>
+              <option value="9">Week 9 (#241 - #270)</option>
+              <option value="10">Week 10 (#271 - #300)</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="topicFilter" class="filter-label">Topic:</label>
+            <select id="topicFilter" class="filter-select">
+              <option value="all">All Topics (38)</option>
+            </select>
+          </div>
+
+          <!-- Difficulty Pills -->
+          <div class="pill-filters">
+            <span class="filter-label" style="align-self: center;">Level:</span>
+            <button class="filter-pill active" data-level="all">All</button>
+            <button class="filter-pill" data-level="Easy">Easy</button>
+            <button class="filter-pill" data-level="Medium">Medium</button>
+            <button class="filter-pill" data-level="Hard">Hard</button>
+          </div>
+
+          <!-- Company Pills -->
+          <div class="pill-filters">
+            <span class="filter-label" style="align-self: center;">Company:</span>
+            <button class="filter-pill active" data-company="all">All</button>
+            <button class="filter-pill" data-company="Amazon">Amazon</button>
+            <button class="filter-pill" data-company="Google">Google</button>
+            <button class="filter-pill" data-company="Microsoft">Microsoft</button>
+            <button class="filter-pill" data-company="Flipkart">Flipkart</button>
+          </div>
+
+          <!-- Status Pills -->
+          <div class="pill-filters">
+            <span class="filter-label" style="align-self: center;">Status:</span>
+            <button class="filter-pill active" data-status="all">All</button>
+            <button class="filter-pill" data-status="solved">Solved</button>
+            <button class="filter-pill" data-status="unsolved">Unsolved</button>
+            <button class="filter-pill" data-status="starred">★ Revision</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Problem Tables Container (rendered by tracker.js) -->
+      <div id="problemsContainer"></div>
+    </section>
+
+    <!-- 3. 12-WEEK PLAN TAB -->
+    <section id="weeksPane" class="tab-pane">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><span>📅</span> 3-Month (12-Week) Master Roadmap</h2>
+          <p class="section-desc">Step-by-step weekly milestone targets designed for top product-based engineering companies.</p>
+        </div>
+      </div>
+
+      <div class="week-grid" id="weeklyPlanGrid"></div>
+    </section>
+
+    <!-- 4. COMPANY REVISION TAB -->
+    <section id="companyPane" class="tab-pane">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><span>🏢</span> Company Revision Sets (Weeks 11-12)</h2>
+          <p class="section-desc">Most frequently reported problems per target company. Re-solve them timed under 25 minutes each.</p>
+        </div>
+      </div>
+
+      <!-- Company Tabs -->
+      <div class="company-tabs" id="companyTabs"></div>
+
+      <!-- Company Problems Table -->
+      <div id="companyProblemsList"></div>
+
+      <!-- Final Pre-Interview Checklist -->
+      <div class="checklist-card">
+        <h3 style="font-size:1.15rem; font-weight:800; color:var(--accent-cyan); display:flex; align-items:center; gap:0.5rem;">
+          <span>✓</span> Final Checklist Before Interviews
+        </h3>
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:0.25rem;">
+          Verify that you satisfy every requirement prior to real candidate interview rounds:
+        </p>
+        <ul class="checklist-list" id="finalChecklistList"></ul>
+      </div>
+    </section>
+
+    <!-- 5. CORE CS SUBJECTS TAB -->
+    <section id="corePane" class="tab-pane">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><span>💻</span> Core Computer Science Fundamentals</h2>
+          <p class="section-desc">Comprehensive revision roadmaps, topic checklists, and high-yield interview questions.</p>
+        </div>
+      </div>
+
+      <div class="core-layout">
+        <!-- Sidebar Navigation -->
+        <div class="core-nav" id="coreSubjectNav"></div>
+
+        <!-- Subject Details & Questions -->
+        <div class="core-detail-panel" id="coreSubjectDetail"></div>
+      </div>
+    </section>
+
+    <!-- 6. AI RESUME PROJECTS TAB -->
+    <section id="projectsPane" class="tab-pane">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><span>🤖</span> High-Impact AI Projects for Standout Resumes</h2>
+          <p class="section-desc">Engineered for 2025/2026 standards: Autonomous agents, GraphRAG, WebRTC streaming, and edge inference.</p>
+        </div>
+      </div>
+
+      <div class="project-hub-grid" id="aiProjectsGrid"></div>
+    </section>
+
+    <!-- 7. FOCUS TIMER TAB -->
+    <section id="timerPane" class="tab-pane">
+      <div class="section-header" style="justify-content: center; text-align: center;">
+        <div>
+          <h2 class="section-title" style="justify-content: center;"><span>⏱</span> Problem Timebox Practice Timer</h2>
+          <p class="section-desc">Time-box 25-30 mins per problem. Hard problems: mark for redo after 40 mins.</p>
+        </div>
+      </div>
+
+      <div class="timer-container">
+        <div class="timer-modes">
+          <button class="timer-mode-btn active" data-time="25">25 Min (Standard)</button>
+          <button class="timer-mode-btn" data-time="30">30 Min (Deep)</button>
+          <button class="timer-mode-btn" data-time="40">40 Min (Hard Cutoff)</button>
+          <button class="timer-mode-btn" data-time="45">45 Min (Mock Interview)</button>
+        </div>
+
+        <div class="timer-display" id="timerBigDisplay">25:00</div>
+
+        <div class="timer-controls">
+          <button class="btn timer-btn-lg" id="timerStartBtn">▶ Start</button>
+          <button class="btn timer-btn-lg" id="timerResetBtn">↺ Reset</button>
+        </div>
+
+        <div style="margin-top: 2rem; text-align: left; background: var(--bg-primary); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+          <h4 style="font-size:0.9rem; font-weight:700; color:var(--accent-cyan); margin-bottom:0.4rem;">💡 Interview Routine Protocol:</h4>
+          <ul style="font-size:0.83rem; color:var(--text-secondary); list-style:square; padding-left:1.25rem; display:flex; flex-direction:column; gap:0.35rem;">
+            <li>Always state your brute-force approach aloud and specify initial time/space complexity.</li>
+            <li>Look for repeating patterns: Sliding window condition, Prefix sums, Monotonic stack, Two pointers.</li>
+            <li>If stuck on Medium for 25-30m or Hard for 40m, stop and study the solution, understand the key invariant, then re-code it completely from scratch!</li>
+            <li>Record your key takeaway in the problem's <strong>Notes</strong> log for quick revision.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Problem Notes Modal (Native <dialog>) -->
+  <dialog id="noteDialog">
+    <div class="modal-header">
+      <div>
+        <h2 class="modal-title" id="noteModalProblemTitle">Problem Notes</h2>
+        <p class="modal-subtitle" id="noteModalProblemSub"></p>
+        <p id="noteModalPattern" style="font-size:0.8rem; color:var(--accent-cyan); margin-top:0.25rem;"></p>
+      </div>
+      <button class="close-btn" id="closeNoteModal">✕</button>
+    </div>
+
+    <form id="problemNoteForm">
+      <div class="form-group">
+        <label for="noteApproach" class="form-label">Core Intuition & Algorithmic Approach:</label>
+        <textarea id="noteApproach" class="form-textarea" placeholder="Explain the key idea: e.g. Used two pointers converging from both ends because the array is sorted..."></textarea>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+        <div class="form-group">
+          <label for="noteTimeComp" class="form-label">Time Complexity:</label>
+          <input type="text" id="noteTimeComp" class="form-input" placeholder="e.g. O(N log N)">
+        </div>
+        <div class="form-group">
+          <label for="noteSpaceComp" class="form-label">Space Complexity:</label>
+          <input type="text" id="noteSpaceComp" class="form-input" placeholder="e.g. O(1)">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="noteText" class="form-label">Key Gotchas & Edge Cases:</label>
+        <textarea id="noteText" class="form-textarea" style="min-height:70px;" placeholder="Watch out for empty input, integer overflow, duplicate elements..."></textarea>
+      </div>
+
+      <div class="form-group" style="display:flex; align-items:center; gap:0.5rem;">
+        <input type="checkbox" id="noteStruggled" style="width:18px; height:18px; accent-color:var(--accent-amber);">
+        <label for="noteStruggled" class="form-label" style="margin-bottom:0; cursor:pointer;">
+          Flag for Weekly Redo (Struggled to solve alone within timebox)
+        </label>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn" onclick="document.getElementById('noteDialog').close()">Cancel</button>
+        <button type="submit" class="btn btn-primary">Save Notes</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- AI Project Detailed Blueprint Modal -->
+  <dialog id="projectDialog" style="max-width: 800px;">
+    <div id="projectDialogContent"></div>
+  </dialog>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- App Footer -->
+  <footer class="app-footer">
+    <p>Prep300 • Built for SDE Aspirants targeting Amazon, Google, Microsoft, Flipkart, and leading product companies.</p>
+    <p style="margin-top:0.25rem; font-size:0.75rem; color:var(--text-muted);">All 300 DSA problems, Core CSE Subjects, and AI Project Blueprints locally saved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/tracker.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6979 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "ibTitle": "2 Sum",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/two-sum/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/2-sum/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Best Time to Buy and Sell Stock",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Move Zeroes",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/move-zeroes/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Majority Element",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/majority-element/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/majority-element/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Subarray with Given Sum",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 1,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Subarray+with+Given+Sum"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Min Steps in Infinite Grid",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Easy",
+    "companies": [],
+    "week": 1,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/min-steps-in-infinite-grid/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Product of Array Except Self",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/product-of-array-except-self/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Maximum Subarray",
+    "ibTitle": "Max Sum Contiguous Subarray",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximum-subarray/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/max-sum-contiguous-subarray/"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Maximum Product Subarray",
+    "ibTitle": "Max Product Subarray",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximum-product-subarray/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/max-product-subarray/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Next Permutation",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/next-permutation/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/next-permutation/"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Sort Colors",
+    "ibTitle": "Sort by Color",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sort-colors/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/sort-by-color/"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Find the Duplicate Number",
+    "ibTitle": "Find Duplicate in Array",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-the-duplicate-number/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/find-duplicate-in-array/"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Search a 2D Matrix II",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Find the Missing and Repeating Number",
+    "ibTitle": "Repeat and Missing Number Array",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 1,
+    "platforms": [
+      "GFG",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/repeat-and-missing-number-array/"
+      },
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Find+the+Missing+and+Repeating+Number"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Noble Integer",
+    "ibTitle": null,
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Medium",
+    "companies": [],
+    "week": 1,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/noble-integer/"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "First Missing Positive",
+    "ibTitle": "First Missing Integer",
+    "topic": "Arrays",
+    "patternTip": "Prefix/suffix tricks, in-place swaps, Kadane, cyclic placement.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/first-missing-positive/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/first-missing-integer/"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Valid Anagram",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/valid-anagram/"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Valid Palindrome",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/valid-palindrome/"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Roman to Integer",
+    "ibTitle": "Roman To Integer",
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/roman-to-integer/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/roman-to-integer/"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Longest Palindromic Substring",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-palindromic-substring/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/longest-palindromic-substring/"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Group Anagrams",
+    "ibTitle": "Anagrams",
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/group-anagrams/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/anagrams/"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Reverse Words in a String",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/reverse-words-in-a-string/"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "String to Integer (atoi)",
+    "ibTitle": "Atoi",
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/string-to-integer-atoi/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/atoi/"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Zigzag Conversion",
+    "ibTitle": "ZigZag String",
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/zigzag-conversion/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/zigzag-string/"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Integer to Roman",
+    "ibTitle": "Integer To Roman",
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/integer-to-roman/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/integer-to-roman/"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Encode and Decode Strings",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/encode-and-decode-strings/"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Multiply Strings",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/multiply-strings/"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Basic Calculator II",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/basic-calculator-ii/"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "String Compression (Run Length Encoding)",
+    "ibTitle": null,
+    "topic": "Strings",
+    "patternTip": "Two pointers on strings, character frequency arrays, pattern matching.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/string-compression-run-length-encoding/"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Happy Number",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Easy",
+    "companies": [],
+    "week": 1,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/happy-number/"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Intersection of Two Arrays II",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Easy",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Ransom Note",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Easy",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/ransom-note/"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Longest Consecutive Sequence",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Subarray Sum Equals K",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Contiguous Array",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/contiguous-array/"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Continuous Subarray Sum",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/continuous-subarray-sum/"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "4Sum II",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/4sum-ii/"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Insert Delete GetRandom O(1)",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Fraction to Recurring Decimal",
+    "ibTitle": "Fraction",
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/fraction-to-recurring-decimal/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/fraction/"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Largest Continuous Sequence Zero Sum",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/largest-continuous-sequence-zero-sum/"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Subarrays with K Different Integers",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Max Points on a Line",
+    "ibTitle": null,
+    "topic": "Hashing",
+    "patternTip": "Prefix-sum + hashmap, frequency maps, design with O(1) lookups.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/max-points-on-a-line/"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Remove Duplicates from Sorted Array",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array/"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Remove Element",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Easy",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/remove-element/"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Valid Palindrome II",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Easy",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/valid-palindrome-ii/"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Squares of a Sorted Array",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Easy",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/squares-of-a-sorted-array/"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "3Sum",
+    "ibTitle": "3 Sum",
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/3sum/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/3-sum/"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "3Sum Closest",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/3sum-closest/"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "4Sum",
+    "ibTitle": "4 Sum",
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/4sum/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/4-sum/"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Container With Most Water",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/container-with-most-water/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/container-with-most-water/"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Two Sum II - Input Array Is Sorted",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Boats to Save People",
+    "ibTitle": null,
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/boats-to-save-people/"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Trapping Rain Water",
+    "ibTitle": "Rain Water Trapped",
+    "topic": "Two Pointers",
+    "patternTip": "Sorted input + left/right pointers; fast/slow pointers for in-place work.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/trapping-rain-water/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/rain-water-trapped/"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Maximum Average Subarray I",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Easy",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Longest Substring Without Repeating Characters",
+    "ibTitle": "Longest Substring Without Repeat",
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/longest-substring-without-repeat/"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Longest Repeating Character Replacement",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Permutation in String",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/permutation-in-string/"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Find All Anagrams in a String",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Minimum Size Subarray Sum",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Max Consecutive Ones III",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [],
+    "week": 2,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Smallest Window Containing All Distinct Characters",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Smallest+Window+Containing+All+Distinct+Characters"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Minimum Window Substring",
+    "ibTitle": "Window String",
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-window-substring/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/window-string/"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Sliding Window Maximum",
+    "ibTitle": null,
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sliding-window-maximum/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/sliding-window-maximum/"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Substring with Concatenation of All Words",
+    "ibTitle": "Substring Concatenation",
+    "topic": "Sliding Window",
+    "patternTip": "Fixed window vs. expand-shrink window; track counts in a map or array.",
+    "level": "Hard",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/substring-concatenation/"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Range Sum Query - Immutable",
+    "ibTitle": null,
+    "topic": "Prefix Sum and Difference Array",
+    "patternTip": "Precompute running sums; use difference arrays for range updates.",
+    "level": "Easy",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/range-sum-query-immutable/"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Find Pivot Index",
+    "ibTitle": null,
+    "topic": "Prefix Sum and Difference Array",
+    "patternTip": "Precompute running sums; use difference arrays for range updates.",
+    "level": "Easy",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-pivot-index/"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Range Sum Query 2D - Immutable",
+    "ibTitle": null,
+    "topic": "Prefix Sum and Difference Array",
+    "patternTip": "Precompute running sums; use difference arrays for range updates.",
+    "level": "Medium",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Maximum Size Subarray Sum Equals k",
+    "ibTitle": null,
+    "topic": "Prefix Sum and Difference Array",
+    "patternTip": "Precompute running sums; use difference arrays for range updates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Corporate Flight Bookings",
+    "ibTitle": null,
+    "topic": "Prefix Sum and Difference Array",
+    "patternTip": "Precompute running sums; use difference arrays for range updates.",
+    "level": "Medium",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/corporate-flight-bookings/"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Search Insert Position",
+    "ibTitle": "Sorted Insert Position",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Easy",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/search-insert-position/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/sorted-insert-position/"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Sqrt(x)",
+    "ibTitle": "Square Root of Integer",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sqrtx/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/square-root-of-integer/"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "ibTitle": "Search for a Range",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/search-for-a-range/"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Search in Rotated Sorted Array",
+    "ibTitle": "Rotated Sorted Array Search",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Flipkart"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/rotated-sorted-array-search/"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Find Minimum in Rotated Sorted Array",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Find Peak Element",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-peak-element/"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Koko Eating Bananas",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/koko-eating-bananas/"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Capacity To Ship Packages Within D Days",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Search a 2D Matrix",
+    "ibTitle": "Matrix Search",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/matrix-search/"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Time Based Key-Value Store",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/time-based-key-value-store/"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Find K Closest Elements",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-k-closest-elements/"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Pow(x, n)",
+    "ibTitle": "Implement Power Function",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/powx-n/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/implement-power-function/"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Split Array Largest Sum",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/split-array-largest-sum/"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Median of Two Sorted Arrays",
+    "ibTitle": "Median of Array",
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/median-of-array/"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Kth Element of Two Sorted Arrays",
+    "ibTitle": null,
+    "topic": "Binary Search",
+    "patternTip": "Search on index AND search on answer (min/max feasible value).",
+    "level": "Hard",
+    "companies": [
+      "Flipkart",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Kth+Element+of+Two+Sorted+Arrays"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Merge Sort",
+    "ibTitle": null,
+    "topic": "Sorting Algorithms and Applications",
+    "patternTip": "Know merge/quick/counting sort; merge-sort variants count inversions.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 3,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Merge+Sort"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Quick Sort",
+    "ibTitle": null,
+    "topic": "Sorting Algorithms and Applications",
+    "patternTip": "Know merge/quick/counting sort; merge-sort variants count inversions.",
+    "level": "Medium",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Quick+Sort"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Count Inversions",
+    "ibTitle": null,
+    "topic": "Sorting Algorithms and Applications",
+    "patternTip": "Know merge/quick/counting sort; merge-sort variants count inversions.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 3,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Count+Inversions"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Sort an Array",
+    "ibTitle": null,
+    "topic": "Sorting Algorithms and Applications",
+    "patternTip": "Know merge/quick/counting sort; merge-sort variants count inversions.",
+    "level": "Medium",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sort-an-array/"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Single Number",
+    "ibTitle": null,
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/single-number/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/single-number/"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Number of 1 Bits",
+    "ibTitle": null,
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Easy",
+    "companies": [],
+    "week": 3,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/number-of-1-bits/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/number-of-1-bits/"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Counting Bits",
+    "ibTitle": null,
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Easy",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/counting-bits/"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Reverse Bits",
+    "ibTitle": null,
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Easy",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/reverse-bits/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/reverse-bits/"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Single Number II",
+    "ibTitle": null,
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Medium",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/single-number-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/single-number-ii/"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Single Number III",
+    "ibTitle": null,
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Medium",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/single-number-iii/"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Divide Two Integers",
+    "ibTitle": "Divide Integers",
+    "topic": "Bit Manipulation",
+    "patternTip": "XOR tricks, masks, n & (n-1), bitmask enumeration.",
+    "level": "Medium",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/divide-two-integers/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/divide-integers/"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Excel Sheet Column Number",
+    "ibTitle": "Excel Column Number",
+    "topic": "Math and Number Theory",
+    "patternTip": "Sieve, GCD, modular arithmetic, overflow awareness.",
+    "level": "Easy",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/excel-sheet-column-number/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/excel-column-number/"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Count Primes",
+    "ibTitle": "Prime Numbers",
+    "topic": "Math and Number Theory",
+    "patternTip": "Sieve, GCD, modular arithmetic, overflow awareness.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/count-primes/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/prime-numbers/"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Factorial Trailing Zeroes",
+    "ibTitle": "Trailing Zeros in Factorial",
+    "topic": "Math and Number Theory",
+    "patternTip": "Sieve, GCD, modular arithmetic, overflow awareness.",
+    "level": "Medium",
+    "companies": [],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/factorial-trailing-zeroes/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/trailing-zeros-in-factorial/"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Reverse Integer",
+    "ibTitle": "Reverse integer",
+    "topic": "Math and Number Theory",
+    "patternTip": "Sieve, GCD, modular arithmetic, overflow awareness.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/reverse-integer/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/reverse-integer/"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Reverse Linked List",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/reverse-linked-list/"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Merge Two Sorted Lists",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/merge-two-sorted-lists/"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Linked List Cycle",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/linked-list-cycle/"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Palindrome Linked List",
+    "ibTitle": "Palindrome List",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/palindrome-linked-list/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/palindrome-list/"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Intersection of Two Linked Lists",
+    "ibTitle": "Intersection of Linked Lists",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/intersection-of-linked-lists/"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Linked List Cycle II",
+    "ibTitle": "List Cycle",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/linked-list-cycle-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/list-cycle/"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Remove Nth Node From End of List",
+    "ibTitle": "Remove Nth Node from List End",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/remove-nth-node-from-list-end/"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Add Two Numbers",
+    "ibTitle": "Add Two Numbers as Lists",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/add-two-numbers/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/add-two-numbers-as-lists/"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Copy List with Random Pointer",
+    "ibTitle": "Copy List",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/copy-list/"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "LRU Cache",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/lru-cache/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/lru-cache/"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Add Two Numbers II",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/add-two-numbers-ii/"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Detect and Remove Loop in Linked List",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Detect+and+Remove+Loop+in+Linked+List"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Reverse Nodes in k-Group",
+    "ibTitle": "K reverse linked list",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/k-reverse-linked-list/"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Merge k Sorted Lists",
+    "ibTitle": "Merge K Sorted Lists",
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/merge-k-sorted-lists/"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "LFU Cache",
+    "ibTitle": null,
+    "topic": "Linked List",
+    "patternTip": "Dummy nodes, fast/slow pointers, reversal in place.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/lfu-cache/"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Valid Parentheses",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/valid-parentheses/"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Min Stack",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/min-stack/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/min-stack/"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Evaluate Reverse Polish Notation",
+    "ibTitle": "Evaluate Expression",
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/evaluate-expression/"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Daily Temperatures",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/daily-temperatures/"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Online Stock Span",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/online-stock-span/"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Decode String",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 4,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/decode-string/"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Remove K Digits",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/remove-k-digits/"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Asteroid Collision",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/asteroid-collision/"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Simplify Path",
+    "ibTitle": "Simplify Directory Path",
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/simplify-path/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/simplify-directory-path/"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Nearest Smaller Element",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Medium",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/nearest-smaller-element/"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Largest Rectangle in Histogram",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/largest-rectangle-in-histogram/"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Maximal Rectangle",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximal-rectangle/"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Longest Valid Parentheses",
+    "ibTitle": null,
+    "topic": "Stack and Monotonic Stack",
+    "patternTip": "Next greater/smaller element, matching brackets, expression parsing.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-valid-parentheses/"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Number of Recent Calls",
+    "ibTitle": null,
+    "topic": "Queue and Deque",
+    "patternTip": "Monotonic deque for window max/min; queue-based simulation.",
+    "level": "Easy",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/number-of-recent-calls/"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Design Circular Queue",
+    "ibTitle": null,
+    "topic": "Queue and Deque",
+    "patternTip": "Monotonic deque for window max/min; queue-based simulation.",
+    "level": "Medium",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-circular-queue/"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Design Circular Deque",
+    "ibTitle": null,
+    "topic": "Queue and Deque",
+    "patternTip": "Monotonic deque for window max/min; queue-based simulation.",
+    "level": "Medium",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-circular-deque/"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Kth Largest Element in an Array",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Top K Frequent Elements",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Top K Frequent Words",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/top-k-frequent-words/"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "K Closest Points to Origin",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/k-closest-points-to-origin/"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Task Scheduler",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/task-scheduler/"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Reorganize String",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/reorganize-string/"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Sort Characters By Frequency",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sort-characters-by-frequency/"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Design Twitter",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-twitter/"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Find Median from Data Stream",
+    "ibTitle": "Running Median",
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-median-from-data-stream/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/running-median/"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Smallest Range Covering Elements from K Lists",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Sliding Window Median",
+    "ibTitle": null,
+    "topic": "Heap / Priority Queue",
+    "patternTip": "Top-K, two heaps (median), merge K sorted, scheduling.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sliding-window-median/"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Meeting Rooms",
+    "ibTitle": null,
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/meeting-rooms/"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Merge Intervals",
+    "ibTitle": "Merge Overlapping Intervals",
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/merge-intervals/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/merge-overlapping-intervals/"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Insert Interval",
+    "ibTitle": null,
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/insert-interval/"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Non-overlapping Intervals",
+    "ibTitle": null,
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Meeting Rooms II",
+    "ibTitle": "Meeting Rooms",
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 5,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/meeting-rooms-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/meeting-rooms/"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "ibTitle": null,
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Medium",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Interval List Intersections",
+    "ibTitle": null,
+    "topic": "Intervals",
+    "patternTip": "Sort by start (or end); sweep line; min-heap of end times.",
+    "level": "Medium",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/interval-list-intersections/"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Assign Cookies",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Easy",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/assign-cookies/"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Lemonade Change",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Easy",
+    "companies": [],
+    "week": 5,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/lemonade-change/"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Jump Game",
+    "ibTitle": "Jump Game Array",
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/jump-game/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/jump-game-array/"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Jump Game II",
+    "ibTitle": "Min Jumps Array",
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/jump-game-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/min-jumps-array/"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Gas Station",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/gas-station/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/gas-station/"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Partition Labels",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/partition-labels/"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Valid Parenthesis String",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/valid-parenthesis-string/"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Largest Number",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/largest-number/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/largest-number/"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Highest Product",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [],
+    "week": 6,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/highest-product/"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Disjoint Intervals",
+    "ibTitle": null,
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Medium",
+    "companies": [],
+    "week": 6,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/disjoint-intervals/"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Candy",
+    "ibTitle": "Distribute Candy",
+    "topic": "Greedy",
+    "patternTip": "Sort + local-best choice; prove with an exchange argument.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/candy/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/distribute-candy/"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Subsets",
+    "ibTitle": "Subset",
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/subsets/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/subset/"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Subsets II",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/subsets-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/subsets-ii/"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Permutations",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/permutations/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/permutations/"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Combination Sum",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/combination-sum/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/combination-sum/"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Letter Combinations of a Phone Number",
+    "ibTitle": "Letter Phone",
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/letter-phone/"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Generate Parentheses",
+    "ibTitle": "Generate all Parentheses II",
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/generate-parentheses/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/generate-all-parentheses-ii/"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Palindrome Partitioning",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/palindrome-partitioning/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/palindrome-partitioning/"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Word Search",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/word-search/"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "N-Queens",
+    "ibTitle": "NQueens",
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/n-queens/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/nqueens/"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Sudoku Solver",
+    "ibTitle": "Sudoku",
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sudoku-solver/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/sudoku/"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Expression Add Operators",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/expression-add-operators/"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Remove Invalid Parentheses",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/remove-invalid-parentheses/"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Word Break II",
+    "ibTitle": null,
+    "topic": "Recursion and Backtracking",
+    "patternTip": "Choose / explore / un-choose; prune early; sort to skip duplicates.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/word-break-ii/"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Invert Binary Tree",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/invert-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Diameter of Binary Tree",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Binary Tree Level Order Traversal",
+    "ibTitle": "Level Order",
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/level-order/"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "ibTitle": "ZigZag Level Order Traversal BT",
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/zigzag-level-order-traversal-bt/"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Binary Tree Right Side View",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Path Sum III",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/path-sum-iii/"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "ibTitle": "Least Common Ancestor",
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/least-common-ancestor/"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "ibTitle": "Construct Binary Tree From Inorder And Preorder",
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 6,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/construct-binary-tree-from-inorder-and-preorder/"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Flatten Binary Tree to Linked List",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/flatten-binary-tree-to-linked-list/"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Boundary of Binary Tree",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/boundary-of-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Count Univalue Subtrees",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/count-univalue-subtrees/"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Lowest Common Ancestor of Deepest Leaves",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Binary Tree Longest Consecutive Sequence",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Count Complete Tree Nodes",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/count-complete-tree-nodes/"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Convert Binary Tree to Doubly Linked List",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 7,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Convert+Binary+Tree+to+Doubly+Linked+List"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Binary Tree Maximum Path Sum",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Serialize and Deserialize Binary Tree",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "ibTitle": "Vertical Order traversal of Binary Tree",
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/vertical-order-traversal-of-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Binary Tree Cameras",
+    "ibTitle": null,
+    "topic": "Binary Trees",
+    "patternTip": "DFS returns a value up; BFS by level; know all traversals iteratively.",
+    "level": "Hard",
+    "companies": [
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-tree-cameras/"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "ibTitle": "Sorted Array To Balanced BST",
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Easy",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/sorted-array-to-balanced-bst/"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Closest Binary Search Tree Value",
+    "ibTitle": null,
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Easy",
+    "companies": [
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/closest-binary-search-tree-value/"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Validate Binary Search Tree",
+    "ibTitle": "Valid Binary Search Tree",
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/valid-binary-search-tree/"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Kth Smallest Element in a BST",
+    "ibTitle": "Kth Smallest Element in Tree",
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/kth-smallest-element-in-tree/"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "ibTitle": null,
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Binary Search Tree Iterator",
+    "ibTitle": null,
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/binary-search-tree-iterator/"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Recover Binary Search Tree",
+    "ibTitle": null,
+    "topic": "Binary Search Trees",
+    "patternTip": "Inorder of a BST is sorted; carry (low, high) bounds down.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/recover-binary-search-tree/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/recover-binary-search-tree/"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Implement Trie (Prefix Tree)",
+    "ibTitle": null,
+    "topic": "Tries",
+    "patternTip": "Prefix lookups; pair with DFS/backtracking on grids.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Design Add and Search Words Data Structure",
+    "ibTitle": null,
+    "topic": "Tries",
+    "patternTip": "Prefix lookups; pair with DFS/backtracking on grids.",
+    "level": "Medium",
+    "companies": [],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Longest Word in Dictionary",
+    "ibTitle": null,
+    "topic": "Tries",
+    "patternTip": "Prefix lookups; pair with DFS/backtracking on grids.",
+    "level": "Medium",
+    "companies": [],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-word-in-dictionary/"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Word Search II",
+    "ibTitle": null,
+    "topic": "Tries",
+    "patternTip": "Prefix lookups; pair with DFS/backtracking on grids.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/word-search-ii/"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Flood Fill",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Easy",
+    "companies": [],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/flood-fill/"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Number of Islands",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/number-of-islands/"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Max Area of Island",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/max-area-of-island/"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Rotting Oranges",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/rotting-oranges/"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Clone Graph",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/clone-graph/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/clone-graph/"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Pacific Atlantic Water Flow",
+    "ibTitle": "Water Flow",
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/water-flow/"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Surrounded Regions",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/surrounded-regions/"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Is Graph Bipartite?",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 7,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/is-graph-bipartite/"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Walls and Gates",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/walls-and-gates/"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Open the Lock",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/open-the-lock/"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "title": "Evaluate Division",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/evaluate-division/"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Word Ladder",
+    "ibTitle": "Word Ladder I",
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/word-ladder/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/word-ladder-i/"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Bus Routes",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Hard",
+    "companies": [
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/bus-routes/"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Shortest Path to Get All Keys",
+    "ibTitle": null,
+    "topic": "Graph Traversal (BFS / DFS) and Grids",
+    "patternTip": "Visited set, multi-source BFS, grid as implicit graph.",
+    "level": "Hard",
+    "companies": [
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/shortest-path-to-get-all-keys/"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Course Schedule",
+    "ibTitle": "Possibility of Finishing all Courses given Prerequisites",
+    "topic": "Topological Sort and Directed Graphs",
+    "patternTip": "Kahn's algorithm (BFS) or DFS with 3 colors for cycles.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/course-schedule/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "title": "Course Schedule II",
+    "ibTitle": null,
+    "topic": "Topological Sort and Directed Graphs",
+    "patternTip": "Kahn's algorithm (BFS) or DFS with 3 colors for cycles.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/course-schedule-ii/"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Find Eventual Safe States",
+    "ibTitle": null,
+    "topic": "Topological Sort and Directed Graphs",
+    "patternTip": "Kahn's algorithm (BFS) or DFS with 3 colors for cycles.",
+    "level": "Medium",
+    "companies": [],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-eventual-safe-states/"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Minimum Height Trees",
+    "ibTitle": null,
+    "topic": "Topological Sort and Directed Graphs",
+    "patternTip": "Kahn's algorithm (BFS) or DFS with 3 colors for cycles.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-height-trees/"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Alien Dictionary",
+    "ibTitle": null,
+    "topic": "Topological Sort and Directed Graphs",
+    "patternTip": "Kahn's algorithm (BFS) or DFS with 3 colors for cycles.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/alien-dictionary/"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Longest Increasing Path in a Matrix",
+    "ibTitle": null,
+    "topic": "Topological Sort and Directed Graphs",
+    "patternTip": "Kahn's algorithm (BFS) or DFS with 3 colors for cycles.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "title": "Network Delay Time",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/network-delay-time/"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Cheapest Flights Within K Stops",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Path With Minimum Effort",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/path-with-minimum-effort/"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Path with Maximum Probability",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Medium",
+    "companies": [],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/path-with-maximum-probability/"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Medium",
+    "companies": [],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "title": "Swim in Rising Water",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/swim-in-rising-water/"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "ibTitle": null,
+    "topic": "Shortest Path Algorithms",
+    "patternTip": "Dijkstra for non-negative weights, Bellman-Ford for K edges/negatives.",
+    "level": "Hard",
+    "companies": [],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Redundant Connection",
+    "ibTitle": null,
+    "topic": "Union-Find (Disjoint Set)",
+    "patternTip": "Path compression + union by rank; connected components, cycle detection.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/redundant-connection/"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Graph Valid Tree",
+    "ibTitle": null,
+    "topic": "Union-Find (Disjoint Set)",
+    "patternTip": "Path compression + union by rank; connected components, cycle detection.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/graph-valid-tree/"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Accounts Merge",
+    "ibTitle": null,
+    "topic": "Union-Find (Disjoint Set)",
+    "patternTip": "Path compression + union by rank; connected components, cycle detection.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/accounts-merge/"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "title": "Most Stones Removed with Same Row or Column",
+    "ibTitle": null,
+    "topic": "Union-Find (Disjoint Set)",
+    "patternTip": "Path compression + union by rank; connected components, cycle detection.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Number of Islands II",
+    "ibTitle": null,
+    "topic": "Union-Find (Disjoint Set)",
+    "patternTip": "Path compression + union by rank; connected components, cycle detection.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/number-of-islands-ii/"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "title": "Making A Large Island",
+    "ibTitle": null,
+    "topic": "Union-Find (Disjoint Set)",
+    "patternTip": "Path compression + union by rank; connected components, cycle detection.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/making-a-large-island/"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "title": "Min Cost to Connect All Points",
+    "ibTitle": null,
+    "topic": "MST and Advanced Graph Topics",
+    "patternTip": "Kruskal/Prim; Tarjan for bridges and articulation points; Euler paths.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "title": "Find the Celebrity",
+    "ibTitle": null,
+    "topic": "MST and Advanced Graph Topics",
+    "patternTip": "Kruskal/Prim; Tarjan for bridges and articulation points; Euler paths.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/find-the-celebrity/"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "title": "Commutable Islands",
+    "ibTitle": null,
+    "topic": "MST and Advanced Graph Topics",
+    "patternTip": "Kruskal/Prim; Tarjan for bridges and articulation points; Euler paths.",
+    "level": "Medium",
+    "companies": [],
+    "week": 8,
+    "platforms": [
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/commutable-islands/"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "title": "Climbing Stairs",
+    "ibTitle": "Stairs",
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Easy",
+    "companies": [
+      "Amazon"
+    ],
+    "week": 8,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/climbing-stairs/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/stairs/"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Min Cost Climbing Stairs",
+    "ibTitle": null,
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Easy",
+    "companies": [],
+    "week": 8,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/min-cost-climbing-stairs/"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "title": "Nth Fibonacci Number",
+    "ibTitle": null,
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Easy",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Nth+Fibonacci+Number"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "title": "House Robber",
+    "ibTitle": null,
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/house-robber/"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "title": "House Robber II",
+    "ibTitle": null,
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Medium",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/house-robber-ii/"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "title": "Decode Ways",
+    "ibTitle": "Ways to Decode",
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/decode-ways/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/ways-to-decode/"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "title": "Perfect Squares",
+    "ibTitle": null,
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/perfect-squares/"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "title": "Knight Dialer",
+    "ibTitle": null,
+    "topic": "1D DP and Fibonacci Style",
+    "patternTip": "Define state, write recurrence, then optimise space.",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/knight-dialer/"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "title": "Unique Paths",
+    "ibTitle": null,
+    "topic": "Grid / 2D DP",
+    "patternTip": "dp[i][j] from top/left neighbours; watch boundary conditions.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/unique-paths/"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "title": "Minimum Path Sum",
+    "ibTitle": "Min Sum Path in Matrix",
+    "topic": "Grid / 2D DP",
+    "patternTip": "dp[i][j] from top/left neighbours; watch boundary conditions.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-path-sum/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/min-sum-path-in-matrix/"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "title": "Triangle",
+    "ibTitle": null,
+    "topic": "Grid / 2D DP",
+    "patternTip": "dp[i][j] from top/left neighbours; watch boundary conditions.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/triangle/"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "title": "Maximal Square",
+    "ibTitle": "Maximum size square sub-matrix",
+    "topic": "Grid / 2D DP",
+    "patternTip": "dp[i][j] from top/left neighbours; watch boundary conditions.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximal-square/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/maximum-size-square-sub-matrix/"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "title": "Dungeon Game",
+    "ibTitle": "Dungeon Princess",
+    "topic": "Grid / 2D DP",
+    "patternTip": "dp[i][j] from top/left neighbours; watch boundary conditions.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/dungeon-game/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/dungeon-princess/"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "title": "Cherry Pickup",
+    "ibTitle": null,
+    "topic": "Grid / 2D DP",
+    "patternTip": "dp[i][j] from top/left neighbours; watch boundary conditions.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/cherry-pickup/"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "title": "Longest Increasing Subsequence",
+    "ibTitle": null,
+    "topic": "Longest Increasing Subsequence Family",
+    "patternTip": "O(n^2) DP first, then O(n log n) with binary search.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/longest-increasing-subsequence/"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "title": "Number of Longest Increasing Subsequence",
+    "ibTitle": null,
+    "topic": "Longest Increasing Subsequence Family",
+    "patternTip": "O(n^2) DP first, then O(n log n) with binary search.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "title": "Largest Divisible Subset",
+    "ibTitle": null,
+    "topic": "Longest Increasing Subsequence Family",
+    "patternTip": "O(n^2) DP first, then O(n log n) with binary search.",
+    "level": "Medium",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/largest-divisible-subset/"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "title": "Russian Doll Envelopes",
+    "ibTitle": null,
+    "topic": "Longest Increasing Subsequence Family",
+    "patternTip": "O(n^2) DP first, then O(n log n) with binary search.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/russian-doll-envelopes/"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "title": "Longest Common Subsequence",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-common-subsequence/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/longest-common-subsequence/"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "title": "Edit Distance",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/edit-distance/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/edit-distance/"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "title": "Longest Palindromic Subsequence",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/longest-palindromic-subsequence/"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "title": "Interleaving String",
+    "ibTitle": "Interleaving Strings",
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Medium",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/interleaving-string/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/interleaving-strings/"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "title": "Word Break",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/word-break/"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "title": "Distinct Subsequences",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/distinct-subsequences/"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "title": "Regular Expression Matching",
+    "ibTitle": "Regular Expression Match",
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/regular-expression-matching/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/regular-expression-match/"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "title": "Wildcard Matching",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/wildcard-matching/"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "title": "Palindrome Partitioning II",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/palindrome-partitioning-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/palindrome-partitioning-ii/"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "title": "Scramble String",
+    "ibTitle": null,
+    "topic": "String and Subsequence DP",
+    "patternTip": "Two-string tables (LCS family); palindromes via expand or interval DP.",
+    "level": "Hard",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/scramble-string/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/scramble-string/"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "title": "0/1 Knapsack Problem",
+    "ibTitle": "0-1 Knapsack",
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "GFG",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/0-1-knapsack/"
+      },
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=0/1+Knapsack+Problem"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "title": "Subset Sum Problem",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [],
+    "week": 9,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Subset+Sum+Problem"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "title": "Partition Equal Subset Sum",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "title": "Target Sum",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 9,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/target-sum/"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "title": "Last Stone Weight II",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/last-stone-weight-ii/"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "title": "Coin Change",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/coin-change/"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "title": "Coin Change II",
+    "ibTitle": "Coin Sum Infinite",
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode",
+      "InterviewBit"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/coin-change-ii/"
+      },
+      {
+        "name": "InterviewBit",
+        "url": "https://www.interviewbit.com/problems/coin-sum-infinite/"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "title": "Ones and Zeroes",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/ones-and-zeroes/"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "title": "Combination Sum IV",
+    "ibTitle": null,
+    "topic": "Knapsack Patterns",
+    "patternTip": "Take / skip; 0/1 vs unbounded; count ways vs min/max.",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/combination-sum-iv/"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "title": "Best Time to Buy and Sell Stock with Cooldown",
+    "ibTitle": null,
+    "topic": "Stock and State-Machine DP",
+    "patternTip": "State = (day, holding, transactions left).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "title": "Best Time to Buy and Sell Stock III",
+    "ibTitle": null,
+    "topic": "Stock and State-Machine DP",
+    "patternTip": "State = (day, holding, transactions left).",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "title": "Best Time to Buy and Sell Stock IV",
+    "ibTitle": null,
+    "topic": "Stock and State-Machine DP",
+    "patternTip": "State = (day, holding, transactions left).",
+    "level": "Hard",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "title": "Burst Balloons",
+    "ibTitle": null,
+    "topic": "Interval / Partition DP and Games",
+    "patternTip": "Split point k between i and j; minimax for game problems.",
+    "level": "Hard",
+    "companies": [
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/burst-balloons/"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "title": "Super Egg Drop",
+    "ibTitle": null,
+    "topic": "Interval / Partition DP and Games",
+    "patternTip": "Split point k between i and j; minimax for game problems.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/super-egg-drop/"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "title": "Egg Dropping Puzzle",
+    "ibTitle": null,
+    "topic": "Interval / Partition DP and Games",
+    "patternTip": "Split point k between i and j; minimax for game problems.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 10,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Egg+Dropping+Puzzle"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "title": "Minimum Cost to Merge Stones",
+    "ibTitle": null,
+    "topic": "Interval / Partition DP and Games",
+    "patternTip": "Split point k between i and j; minimax for game problems.",
+    "level": "Hard",
+    "companies": [
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-cost-to-merge-stones/"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "title": "House Robber III",
+    "ibTitle": null,
+    "topic": "DP on Trees",
+    "patternTip": "Post-order DFS returning a pair of states (take, skip).",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/house-robber-iii/"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "title": "Sum of Distances in Tree",
+    "ibTitle": null,
+    "topic": "DP on Trees",
+    "patternTip": "Post-order DFS returning a pair of states (take, skip).",
+    "level": "Hard",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/sum-of-distances-in-tree/"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "title": "Travelling Salesman Problem",
+    "ibTitle": null,
+    "topic": "Bitmask and Digit DP",
+    "patternTip": "Mask = subset of items used; digit DP with tight flag.",
+    "level": "Hard",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Travelling+Salesman+Problem"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "title": "Number of Ways to Wear Different Hats to Each Other",
+    "ibTitle": null,
+    "topic": "Bitmask and Digit DP",
+    "patternTip": "Mask = subset of items used; digit DP with tight flag.",
+    "level": "Hard",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "title": "Maximum Length of Repeated Subarray",
+    "ibTitle": null,
+    "topic": "Mixed DP Practice",
+    "patternTip": "Identify the pattern before coding: which family does it belong to?",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "title": "Partition Array for Maximum Sum",
+    "ibTitle": null,
+    "topic": "Mixed DP Practice",
+    "patternTip": "Identify the pattern before coding: which family does it belong to?",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/partition-array-for-maximum-sum/"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "title": "Minimum Cost Tree From Leaf Values",
+    "ibTitle": null,
+    "topic": "Mixed DP Practice",
+    "patternTip": "Identify the pattern before coding: which family does it belong to?",
+    "level": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "title": "Design HashSet",
+    "ibTitle": null,
+    "topic": "Design Problems",
+    "patternTip": "Combine hashmap + list/heap/deque; state invariants clearly.",
+    "level": "Easy",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-hashset/"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "title": "Design Underground System",
+    "ibTitle": null,
+    "topic": "Design Problems",
+    "patternTip": "Combine hashmap + list/heap/deque; state invariants clearly.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-underground-system/"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "title": "Design Browser History",
+    "ibTitle": null,
+    "topic": "Design Problems",
+    "patternTip": "Combine hashmap + list/heap/deque; state invariants clearly.",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-browser-history/"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "title": "Design Hit Counter",
+    "ibTitle": null,
+    "topic": "Design Problems",
+    "patternTip": "Combine hashmap + list/heap/deque; state invariants clearly.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-hit-counter/"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "title": "Design Snake Game",
+    "ibTitle": null,
+    "topic": "Design Problems",
+    "patternTip": "Combine hashmap + list/heap/deque; state invariants clearly.",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/design-snake-game/"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "title": "Range Sum Query - Mutable",
+    "ibTitle": null,
+    "topic": "Advanced Data Structures",
+    "patternTip": "Segment tree / Fenwick tree for range queries with updates.",
+    "level": "Medium",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/range-sum-query-mutable/"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "title": "Count of Range Sum",
+    "ibTitle": null,
+    "topic": "Advanced Data Structures",
+    "patternTip": "Segment tree / Fenwick tree for range queries with updates.",
+    "level": "Hard",
+    "companies": [],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/count-of-range-sum/"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "title": "Minimum Number of Jumps",
+    "ibTitle": null,
+    "topic": "Mixed Company-Style Problems",
+    "patternTip": "Timed practice: 2 problems in 60 minutes, then explain your approach aloud.",
+    "level": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Flipkart"
+    ],
+    "week": 10,
+    "platforms": [
+      "GFG"
+    ],
+    "links": [
+      {
+        "name": "GFG",
+        "url": "https://www.geeksforgeeks.org/explore?page=1&search=Minimum+Number+of+Jumps"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "title": "Text Justification",
+    "ibTitle": null,
+    "topic": "Mixed Company-Style Problems",
+    "patternTip": "Timed practice: 2 problems in 60 minutes, then explain your approach aloud.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/text-justification/"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "title": "Integer to English Words",
+    "ibTitle": null,
+    "topic": "Mixed Company-Style Problems",
+    "patternTip": "Timed practice: 2 problems in 60 minutes, then explain your approach aloud.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/integer-to-english-words/"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "title": "Shortest Distance from All Buildings",
+    "ibTitle": null,
+    "topic": "Mixed Company-Style Problems",
+    "patternTip": "Timed practice: 2 problems in 60 minutes, then explain your approach aloud.",
+    "level": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "week": 10,
+    "platforms": [
+      "LeetCode"
+    ],
+    "links": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/"
+      }
+    ]
+  }
+]

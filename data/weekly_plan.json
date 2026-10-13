@@ -1,0 +1,110 @@
+[
+  {
+    "week": 1,
+    "problems": "#1-#30",
+    "count": 30,
+    "topics": "Arrays, Strings, Hashing",
+    "dailyTarget": "4-5 problems/day (Day 1 to 6), Day 7 Revision",
+    "goal": "Master Prefix/suffix tricks, two pointers on strings, in-place swaps, Kadane, hashmap lookups.",
+    "tips": "Focus on array manipulation invariants and edge cases (empty arrays, duplicates, single elements)."
+  },
+  {
+    "week": 2,
+    "problems": "#31-#60",
+    "count": 30,
+    "topics": "Hashing, Two Pointers, Sliding Window",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master frequency maps, sorted array 2-pointer convergence, and fixed/dynamic sliding window.",
+    "tips": "For sliding window, clearly define window expansion (right pointer) vs contraction (left pointer) condition."
+  },
+  {
+    "week": 3,
+    "problems": "#61-#90",
+    "count": 30,
+    "topics": "Sliding Window, Prefix Sum, Binary Search, Sorting, Bit Manipulation",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master binary search on values/answers (predicate monotonic check), prefix sum 2D, and merge sort inversions.",
+    "tips": "Binary search on answers: establish low/high boundaries and the isValid() monotonic predicate."
+  },
+  {
+    "week": 4,
+    "problems": "#91-#120",
+    "count": 30,
+    "topics": "Bit Manipulation, Math, Linked List, Stack",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master XOR tricks, dummy nodes, fast/slow pointer cycle detection, in-place reversal, and monotonic stack basics.",
+    "tips": "Always use dummy head for linked list problems to eliminate boundary condition checks for the head node."
+  },
+  {
+    "week": 5,
+    "problems": "#121-#150",
+    "count": 30,
+    "topics": "Stack, Queue, Heap, Intervals, Greedy",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master Monotonic stack (next greater), Top-K heaps, sweep-line interval merges, and greedy interval scheduling.",
+    "tips": "Interval problems: always sort by start time (or end time) and visualize overlaps with a timeline."
+  },
+  {
+    "week": 6,
+    "problems": "#151-#180",
+    "count": 30,
+    "topics": "Greedy, Backtracking, Binary Trees",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master Backtracking state template (choose -> explore -> un-choose), DFS tree traversals, and LCA.",
+    "tips": "In recursion, draw the call stack diagram for small input n=3 to clearly trace backtrack states."
+  },
+  {
+    "week": 7,
+    "problems": "#181-#210",
+    "count": 30,
+    "topics": "Binary Trees, BST, Tries, Graph Traversal",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master BST inorder sorted property, Trie prefix tree lookups, and Multi-source BFS on 2D grids.",
+    "tips": "Trie nodes need an array/map of children and an isEndOfWord boolean. Grid BFS: mark visited immediately upon enqueueing."
+  },
+  {
+    "week": 8,
+    "problems": "#211-#240",
+    "count": 30,
+    "topics": "Graph Traversal, Topological Sort, Shortest Path, Union-Find, MST, 1D DP",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master Kahn's algorithm (indegree queue), Dijkstra (min-heap), Disjoint Set with path compression, and 1D DP.",
+    "tips": "Start applying and getting referrals around Week 8, as company hiring pipelines typically take 3-5 weeks!"
+  },
+  {
+    "week": 9,
+    "problems": "#241-#270",
+    "count": 30,
+    "topics": "1D DP, Grid DP, LIS, String DP, Knapsack",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Master 2D grid DP, LCS/Edit Distance string tables, and 0/1 vs Unbounded Knapsack patterns.",
+    "tips": "For DP, write the recursive relation with memoization first, then convert to iterative table to optimize space."
+  },
+  {
+    "week": 10,
+    "problems": "#271-#300",
+    "count": 30,
+    "topics": "Knapsack, Stock DP, Interval DP, Tree DP, Bitmask, Design, Advanced DS, Mixed",
+    "dailyTarget": "4-5 problems/day",
+    "goal": "Complete remaining hard DP families (Burst Balloons, Tree DP), Design LRU/Twitter, and Segment Tree basics.",
+    "tips": "Congratulations on finishing all 300 problems! Consolidate your pattern cheat-sheet for review."
+  },
+  {
+    "week": 11,
+    "problems": "Revision Week",
+    "count": 66,
+    "topics": "Company Revision Sets & Timed Practice",
+    "dailyTarget": "Re-solve 5-6 struggled problems/day under 25 mins",
+    "goal": "Redo every problem you flagged for revision. Complete Amazon (19) and Google (15) revision sets timed.",
+    "tips": "Participate in 2 live or virtual LeetCode contests to build real-time problem-solving resilience."
+  },
+  {
+    "week": 12,
+    "problems": "Mocks & CS Fundamentals",
+    "count": 0,
+    "topics": "Mock Interviews, System Design, Core CS & Behavioral",
+    "dailyTarget": "3-4 Full Mock Interviews (45 mins, 2 problems)",
+    "goal": "Simulate real interview conditions with verbal explanation. Deep dive into OS, DBMS, CN, OOP, and Project defense.",
+    "tips": "Practice explaining your AI project's architecture, bottlenecks, design choices, and quantifiable metrics aloud."
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "agentic-devops-sre",
+    "title": "Autonomous Multi-Agent DevOps & SRE Incident Remediation Engine",
+    "tagline": "Self-healing production infra powered by collaborative LLM agents with sandboxed code validation.",
+    "difficulty": "Advanced",
+    "category": "Autonomous AI Agents / Systems",
+    "whyItStandsOut": "Recruiters and hiring managers in 2025/2026 look beyond basic chatbot wrappers. Building an autonomous multi-agent system that executes deterministic bash/code actions inside isolated Docker containers with automated rollback demonstrates distributed systems, security, and bleeding-edge agent orchestration (LangGraph/AutoGen).",
+    "techStack": [
+      "Python 3.11+",
+      "LangGraph",
+      "Docker SDK",
+      "FastAPI",
+      "Prometheus / OpenTelemetry",
+      "Redis",
+      "Ollama / Claude 3.5 Sonnet / GPT-4o",
+      "GitPython"
+    ],
+    "architecture": {
+      "overview": "A distributed supervisor-worker multi-agent architecture. When an alert fires (via webhook), the Supervisor agent delegates diagnosis, environment reproduction, patch generation, and regression verification across specialized agents.",
+      "components": [
+        "Telemetry Ingest: Receives alerts from Prometheus/Datadog or OpenTelemetry traces via FastAPI webhook.",
+        "Supervisor Agent: Maintains incident state graph; routes sub-tasks to Triager, Coder, and Verifier agents.",
+        "Triager Agent: Analyzes stack traces, correlates distributed logs, and performs git bisect to isolate faulty commit.",
+        "Sandbox Executor: Spins up ephemeral isolated Docker container with the target repo revision.",
+        "Coder Agent: Synthesizes minimal fix with unit test cases using AST context.",
+        "Verifier Agent: Executes test suite in sandbox container; verifies fix resolves incident without regressions.",
+        "PR & Rollback Manager: Automatically creates GitHub PR with incident post-mortem analysis and patch diff."
+      ]
+    },
+    "milestones": [
+      {
+        "week": 1,
+        "task": "Set up FastAPI webhook and Docker SDK sandbox manager to spawn disposable container testbeds with resource limits (cgroups)."
+      },
+      {
+        "week": 2,
+        "task": "Implement LangGraph state graph with Supervisor, Log Analyzer, and Code Patching agents."
+      },
+      {
+        "week": 3,
+        "task": "Integrate Git bisect automation and Tree-sitter AST extraction to feed relevant code slices to the LLM context window."
+      },
+      {
+        "week": 4,
+        "task": "Build automated test execution runner inside container with structured error capture and multi-turn iterative self-correction."
+      },
+      {
+        "week": 5,
+        "task": "Add GitHub PR automation with structured markdown incident post-mortems and benchmark against 20 real GitHub bug issues."
+      }
+    ],
+    "resumeBullets": [
+      "Architected an autonomous multi-agent incident remediation engine utilizing LangGraph and Docker SDK, reducing mean-time-to-resolution (MTTR) by 42% across simulated microservice outages.",
+      "Engineered an ephemeral sandbox execution runtime with cgroups isolation to validate generated security patches and automated test suites with 0% host risk.",
+      "Implemented an AST-guided prompt compression pipeline using Tree-sitter, reducing LLM token consumption by 65% while maintaining 91% patch compilation rate.",
+      "Designed automated Git bisect and log correlation agents that pinpointed breaking commit hashes within 45 seconds of alert ingestion."
+    ],
+    "interviewQuestions": [
+      {
+        "q": "How do you prevent the autonomous agent from hallucinating destructive bash commands or deleting databases?",
+        "a": "We enforce strict defense-in-depth: all agent execution is confined to non-root, read-only rootfs Docker containers with drop-capabilities (cap-drop=ALL), isolated network bridges, and a deterministic command allowlist verified by an execution proxy before invocation."
+      },
+      {
+        "q": "How did you manage agent cyclic loops or deadlocks in LangGraph?",
+        "a": "We implemented a strict state machine with MaxIterations guardrails, exponential backoff on retry, and a human-in-the-loop fallback hook when the Verifier agent detects the test suite failing 3 consecutive iterations."
+      }
+    ]
+  },
+  {
+    "id": "enterprise-graphrag",
+    "title": "Enterprise Multimodal GraphRAG Knowledge & Citation Platform",
+    "tagline": "Hybrid Knowledge Graph + Vector Retrieval engine with sub-300ms latency and zero hallucinated citations.",
+    "difficulty": "Advanced",
+    "category": "Information Retrieval / GenAI",
+    "whyItStandsOut": "Standard naive RAG (chunking + cosine similarity) has become a dime-a-dozen project. Engineering a hybrid GraphRAG system that extracts entities/relations into a Neo4j graph, links them with dense embeddings, and performs cross-encoder re-ranking demonstrates deep understanding of production-grade NLP, data structures, and graph theory.",
+    "techStack": [
+      "Python 3.11+",
+      "Neo4j / Memgraph",
+      "LlamaIndex",
+      "Qdrant / Milvus",
+      "BGE-Large-EN / Cohere Rerank",
+      "FastAPI",
+      "React / Next.js",
+      "Docker"
+    ],
+    "architecture": {
+      "overview": "A dual-path retrieval architecture combining structured Knowledge Graph traversals (Cypher queries) with unstructured dense/sparse vector search (hybrid BM25 + Qdrant), fused via Reciprocal Rank Fusion (RRF) and reranked via cross-encoders.",
+      "components": [
+        "Document Parsing Pipeline: Parses PDFs, markdown, and tables with layout-aware chunking (Docling / Unstructured).",
+        "Entity & Relation Extractor: Uses LLM with structured JSON output schema to extract (Subject, Predicate, Object) triplets.",
+        "Graph Storage (Neo4j): Stores knowledge nodes, relationships, and property graphs.",
+        "Vector Index (Qdrant): Indexes text chunks with BGE-large dense vectors and BM25 sparse vectors.",
+        "Hybrid Retrieval Orchestrator: Executes multi-hop graph neighborhood expansion combined with vector search.",
+        "RRF & Cross-Encoder Reranker: Blends and scores retrieved candidates using BGE-Reranker-Large.",
+        "Hallucination Verification: Verifies every generated claim directly against extracted document citation spans."
+      ]
+    },
+    "milestones": [
+      {
+        "week": 1,
+        "task": "Set up Neo4j and Qdrant in Docker; build document ingestion pipeline with layout-aware PDF chunking."
+      },
+      {
+        "week": 2,
+        "task": "Implement asynchronous triplet extraction pipeline with schema validation and entity deduplication."
+      },
+      {
+        "week": 3,
+        "task": "Develop hybrid retrieval engine fusing Cypher graph traversals with vector similarity using Reciprocal Rank Fusion (RRF)."
+      },
+      {
+        "week": 4,
+        "task": "Integrate BGE cross-encoder re-ranking and citation span attribution check for factual grounding."
+      },
+      {
+        "week": 5,
+        "task": "Build React dashboard with interactive Neo4j graph visualization (using react-force-graph) and evaluate on RAGTriad metrics using TruLens."
+      }
+    ],
+    "resumeBullets": [
+      "Built an enterprise GraphRAG platform combining Neo4j knowledge graphs and Qdrant vector search, achieving a 38% increase in multi-hop question-answering accuracy over baseline vector RAG.",
+      "Designed an asynchronous entity-relation extraction pipeline handling 25,000+ pages with parallel batching and Pydantic schema validation.",
+      "Implemented Reciprocal Rank Fusion (RRF) and cross-encoder re-ranking (BGE-Reranker-Large), cutting context noise by 52% and reducing response latency to 320ms.",
+      "Established automated RAG evaluation using TruLens (faithfulness, answer relevance, context precision), achieving a 96.4% groundedness score across 500 enterprise domain queries."
+    ],
+    "interviewQuestions": [
+      {
+        "q": "Why combine Knowledge Graphs with Vector Search instead of using Vector Search alone?",
+        "a": "Vector search excels at semantic fuzzy matching on short queries, but fails at multi-hop reasoning (e.g. 'Which suppliers of Company X were affected by the 2024 logistics regulation?'). Knowledge graphs model explicit discrete relationships and hierarchical structures, allowing deterministic graph hops that vectors miss."
+      },
+      {
+        "q": "How do you solve entity deduplication when different documents refer to the same entity with slight variations?",
+        "a": "We run an entity resolution pass using embedding cosine similarity above 0.92 coupled with Levenshtein string distance and an LLM verification step for ambiguous matches, merging nodes into a canonical entity with alias properties in Neo4j."
+      }
+    ]
+  },
+  {
+    "id": "realtime-voice-vision-copilot",
+    "title": "Ultra-Low Latency Full-Duplex Multimodal AI Copilot",
+    "tagline": "Real-time voice and vision assistant with WebRTC, bidirectional audio streaming, and sub-250ms end-to-end latency.",
+    "difficulty": "Advanced",
+    "category": "Real-Time Systems / Multimodal AI",
+    "whyItStandsOut": "Voice AI in 2025/2026 demands instantaneous full-duplex conversations with natural interruptions, not awkward push-to-talk delays. Building a WebRTC-based streaming pipeline with VAD (Voice Activity Detection), streaming STT, LLM token streaming, and streaming TTS demonstrates distributed networking, audio buffer management, and concurrency.",
+    "techStack": [
+      "Python (asyncio)",
+      "LiveKit / WebRTC",
+      "Deepgram Nova-2 (Streaming STT)",
+      "Cartesia / ElevenLabs (Streaming TTS)",
+      "FastAPI / WebSockets",
+      "Silero VAD",
+      "OpenCV / Canvas API",
+      "React"
+    ],
+    "architecture": {
+      "overview": "Full-duplex real-time media streaming using WebRTC. Audio tracks and video frames flow asynchronously through a pipelined audio processing loop that supports instant human barge-in interruption.",
+      "components": [
+        "WebRTC Ingestion (LiveKit): Low-latency UDP-based peer-to-peer audio and video transport.",
+        "Silero Voice Activity Detector (VAD): Detects human speech onset and termination in <20ms.",
+        "Streaming STT (Deepgram/Whisper streaming): Converts audio chunks to interim and final text transcripts over WebSockets.",
+        "Vision Context Processor: Periodically extracts keyframes using OpenCV and sends compressed visual embeddings.",
+        "Async LLM Streamer: Generates response tokens with streaming yield; immediately cancelled upon barge-in signal.",
+        "Streaming TTS Engine: Synthesizes audio buffer frames incrementally from initial tokens with First-Audio-Packet latency under 120ms."
+      ]
+    },
+    "milestones": [
+      {
+        "week": 1,
+        "task": "Set up LiveKit server and React WebRTC audio/video capture client."
+      },
+      {
+        "week": 2,
+        "task": "Implement Silero VAD audio frame buffer and WebSocket streaming to Deepgram STT."
+      },
+      {
+        "week": 3,
+        "task": "Integrate asynchronous LLM token generation with sentence-boundary chunking for TTS streaming."
+      },
+      {
+        "week": 4,
+        "task": "Implement bidirectional barge-in interruption logic (flushing audio output buffer when user speaks)."
+      },
+      {
+        "week": 5,
+        "task": "Add camera frame contextual QA and benchmark end-to-end voice-to-voice latency."
+      }
+    ],
+    "resumeBullets": [
+      "Architected a full-duplex multimodal conversational assistant utilizing WebRTC and LiveKit, achieving sub-240ms voice-to-voice end-to-end latency.",
+      "Implemented an asynchronous sentence-boundary streaming pipeline integrating Deepgram STT, Claude 3.5 Sonnet, and Cartesia TTS with zero blocking I/O.",
+      "Designed a robust interruption handling mechanism using Silero VAD that flushes outbound audio buffers within 35ms of user barge-in.",
+      "Integrated real-time video keyframe downsampling with OpenCV to provide live computer vision question answering over webcam feeds at 1 FPS."
+    ],
+    "interviewQuestions": [
+      {
+        "q": "How do you achieve sub-300ms end-to-end latency in a voice loop?",
+        "a": "By aggressive pipelining and eliminating batch boundaries: 1) Stream raw PCM audio directly via WebRTC. 2) Stream STT transcripts incrementally. 3) Feed the first clause/sentence (punctuation-aware chunker) into streaming TTS before the LLM finishes generating the entire response. 4) Use edge-hosted low-latency providers (Cartesia Sonic, Deepgram Nova-2)."
+      },
+      {
+        "q": "What happens when a user interrupts the bot while it is speaking?",
+        "a": "Silero VAD detects incoming speech above energy and probability thresholds, triggering an immediate cancellation token on the LLM async generator and issuing a WebRTC track silence flush command to purge already-buffered audio chunks."
+      }
+    ]
+  },
+  {
+    "id": "ai-code-security-reviewer",
+    "title": "Autonomous AI Code Reviewer & Semantic Vulnerability Patcher",
+    "tagline": "Static analysis + LLM-driven SAST engine that detects OWASP vulnerabilities, synthesizes verified patches, and generates unit tests.",
+    "difficulty": "Intermediate-Advanced",
+    "category": "Developer Tools / AI Security",
+    "whyItStandsOut": "Developer productivity tools and automated code security are among the highest-funded and most sought-after domains in tech. Combining AST analysis (Tree-sitter) with Semgrep rules and LLM synthesis shows expertise in compilers, software security, and evaluation benchmarks.",
+    "techStack": [
+      "Python 3.11+",
+      "Tree-sitter",
+      "Semgrep CLI / API",
+      "Pytest / JUnit",
+      "FastAPI",
+      "GitHub Apps SDK",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "architecture": {
+      "overview": "GitHub App event trigger -> PR diff analysis -> Semgrep AST rule scan -> Vulnerability contextualization -> LLM patch synthesis -> Docker sandbox test verification -> Inline GitHub review comment.",
+      "components": [
+        "GitHub App Listener: Webhook captures `pull_request.opened` and `pull_request.synchronize` events.",
+        "Diff & AST Parser: Extracts changed functions, imports, and symbol call graphs using Tree-sitter.",
+        "Rule Engine (Semgrep): Scans for OWASP Top 10 vulnerabilities (SQL injection, XSS, SSRF, IDOR).",
+        "Context Builder: Injects function definition, callers, and surrounding unit tests into LLM prompt.",
+        "Patch & Test Synthesizer: Generates minimal secure diff and regression test reproducing the exploit.",
+        "Sandbox Runner: Verifies tests pass and vulnerability is closed in a containerized runner.",
+        "Inline PR Reporter: Posts formatted GitHub review comments with 1-click 'Apply Suggestion' button."
+      ]
+    },
+    "milestones": [
+      {
+        "week": 1,
+        "task": "Configure GitHub App with webhook receiver and parse unified PR diffs."
+      },
+      {
+        "week": 2,
+        "task": "Integrate Semgrep engine and Tree-sitter for syntax tree navigation and taint tracking."
+      },
+      {
+        "week": 3,
+        "task": "Build LLM prompt orchestration for contextual security patch synthesis and regression test generation."
+      },
+      {
+        "week": 4,
+        "task": "Implement Docker test runner to automatically verify generated test passes with patch applied."
+      },
+      {
+        "week": 5,
+        "task": "Deploy GitHub App on cloud VM and benchmark against OWASP benchmark test suite."
+      }
+    ],
+    "resumeBullets": [
+      "Built a production GitHub App that automatically detects code vulnerabilities and synthesizes verified patches across 4 programming languages.",
+      "Integrated Semgrep static taint analysis with Tree-sitter AST parsing, eliminating 70% of irrelevant code lines before LLM prompt injection.",
+      "Automated patch verification via containerized test execution, achieving an 84% first-time compile and test pass rate on 200 synthetic security flaws.",
+      "Deployed to 15+ open-source repositories, analyzing over 1,200 pull requests with an average analysis latency of under 18 seconds."
+    ],
+    "interviewQuestions": [
+      {
+        "q": "How do you prevent false positives from flooding developer pull requests?",
+        "a": "We use a hybrid funnel: Semgrep flags potential taint paths, but before creating a comment, the LLM runs a verification pass against the surrounding call hierarchy. If the input is already sanitized by an upstream middleware or type constraint, the finding is silently discarded."
+      },
+      {
+        "q": "How does Tree-sitter improve the code review pipeline compared to sending raw diffs?",
+        "a": "Raw diffs lack semantic scope (a 2-line change inside a 500-line method). Tree-sitter parses the full syntax tree to extract the enclosing function, class definition, docstrings, and imported types, giving the LLM complete semantic context without exceeding token budgets."
+      }
+    ]
+  },
+  {
+    "id": "offline-edge-llm-studio",
+    "title": "Offline-First Edge LLM Studio with WebGPU & Speculative Decoding",
+    "tagline": "Private, zero-server AI workspace running quantized 7B LLMs in the browser at 30+ tokens/sec using WebGPU.",
+    "difficulty": "Intermediate-Advanced",
+    "category": "Edge AI / High Performance Web",
+    "whyItStandsOut": "Edge AI and local on-device inference are key frontiers as organizations seek to reduce cloud GPU costs and guarantee absolute data privacy. Demonstrating browser-native WebGPU, quantized weights (AWQ/GGUF/Wasm), and client-side vector search (Vectorlite/OPFS) showcases systems programming and web graphics performance.",
+    "techStack": [
+      "WebGPU",
+      "WebAssembly (Wasm)",
+      "Transformers.js / WebLLM",
+      "Origin Private File System (OPFS)",
+      "TypeScript",
+      "IndexedDB",
+      "Tailwind CSS"
+    ],
+    "architecture": {
+      "overview": "Runs quantized models (e.g. Llama-3-8B-Instruct-q4f16, Mistral-7B, Phi-3.5) directly inside the client's GPU via WebGPU, caching model weights in the browser's OPFS with zero server compute costs.",
+      "components": [
+        "WebGPU Inference Engine (WebLLM / Wasm): Compiles tensor operations to compute shaders executing on client GPU.",
+        "Storage Manager (OPFS): Streams and caches multi-gigabyte quantized GGUF/safetensors weights in local browser cache.",
+        "Client-Side Vector DB: Executes local embedding generation and vector similarity search inside a Web Worker.",
+        "Speculative Decoding Pipeline: Uses a tiny 0.5B draft model to speculate tokens, verified in parallel by the target 7B model.",
+        "Streaming Token Dispatcher: Renders tokens at 60 FPS using RequestAnimationFrame and smooth text interpolation."
+      ]
+    },
+    "milestones": [
+      {
+        "week": 1,
+        "task": "Set up WebGPU device context detection and WebLLM pipeline with Phi-3-mini-4k-instruct-q4."
+      },
+      {
+        "week": 2,
+        "task": "Implement Origin Private File System (OPFS) storage manager with progressive model chunk downloading and progress bar."
+      },
+      {
+        "week": 3,
+        "task": "Build client-side in-browser RAG using Transformers.js for local embeddings and in-memory cosine index."
+      },
+      {
+        "week": 4,
+        "task": "Implement speculative decoding / prompt caching to accelerate output token generation speed."
+      },
+      {
+        "week": 5,
+        "task": "Measure and optimize memory footprint, ensuring sub-2.5GB VRAM usage on laptop GPUs."
+      }
+    ],
+    "resumeBullets": [
+      "Engineered a privacy-first edge AI web application executing 8B parameter LLMs entirely client-side via WebGPU with 0 bytes transmitted to cloud servers.",
+      "Implemented an Origin Private File System (OPFS) streaming cache manager, enabling instantaneous model boot-up from browser disk cache on repeat visits.",
+      "Achieved 34 tokens/sec inference speed on Apple M-series and RTX laptop GPUs by optimizing 4-bit weight quantization and compute shaders.",
+      "Integrated client-side Web Worker embedding generation and vector search over user-uploaded PDF documents with zero latency penalty on the UI thread."
+    ],
+    "interviewQuestions": [
+      {
+        "q": "What are the primary technical constraints of running LLMs in the browser via WebGPU?",
+        "a": "1) VRAM limits: Browsers have max buffer size and allocation limits (often 2-4GB per process), requiring aggressive 4-bit (AWQ/q4f16) quantization. 2) Memory bandwidth: Browser memory copies between CPU and GPU need to be minimized using unified memory architectures or shared array buffers. 3) Initial download size: Requiring progressive chunked downloads and persistent OPFS caching."
+      },
+      {
+        "q": "How does Speculative Decoding work to increase inference throughput?",
+        "a": "Autoregressive generation is memory-bandwidth bound. Speculative decoding runs a tiny fast draft model (e.g. 0.5B) to generate K draft tokens in rapid succession, then passes all K tokens through the large target model (e.g. 8B) in a single parallel forward pass. The target model verifies and accepts or rejects the tokens, achieving 2-3x speedups without changing the output probability distribution."
+      }
+    ]
+  }
+]
