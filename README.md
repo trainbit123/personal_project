@@ -1,5 +1,11 @@
 # Prep300 • 3-Month Career & SDE Preparation Hub
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Vercel-success?style=for-the-badge&logo=vercel)](https://personalproject-liard.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-trainbit123%2Fpersonal__project-blue?style=for-the-badge&logo=github)](https://github.com/trainbit123/personal_project)
+
+🌐 **Live Application URL**: [https://personalproject-liard.vercel.app](https://personalproject-liard.vercel.app)  
+📁 **GitHub Repository**: [https://github.com/trainbit123/personal_project](https://github.com/trainbit123/personal_project)
+
 A production-grade, zero-dependency personal tracking web application built to guide daily preparation across **300 DSA Problems**, **Core CSE Subjects**, and **Modern AI Projects** for top product companies (Amazon, Google, Microsoft, Flipkart).
 
 ---
